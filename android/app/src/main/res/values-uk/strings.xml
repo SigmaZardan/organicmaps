@@ -195,7 +195,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Ел. пошта</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Скопіювати в буфер обміну: %1$s</string>
+	<string name="copied_to_clipboard">Скопійовано в буфер обміну: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Готово</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -299,9 +299,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Оновити мапу</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Сервіси Google Play</string>
+	<string name="google_play_services">Служби визначення місцезнаходження Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Щоб визначити ваше поточне місцезнаходження, використовуйте сервіси Google Play</string>
+	<string name="pref_use_google_play">Швидке визначення приблизного місця розташування за допомогою Bluetooth, WiFi або мобільної мережі</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Завантажити мапи з дороги</string>
 	<!-- Text for routing error dialog -->
@@ -622,7 +622,7 @@
 	<string name="terms_of_use">Умови використання</string>
 	<string name="button_layer_traffic">Затор</string>
 	<string name="button_layer_subway">Метрополітен</string>
-	<string name="layers_title">Зображення мапи</string>
+	<string name="layers_title">Стилі та шари мапи</string>
 	<string name="subway_data_unavailable">Мапа метрополітену недоступна</string>
 	<string name="bookmarks_empty_list_title">Список порожній</string>
 	<string name="bookmarks_empty_list_message">Щоб додати нову мітку, натисніть на значок зірочки в картці об’єкта</string>
@@ -724,6 +724,7 @@
 	<string name="elevation_profile_distance">Відст.:</string>
 	<string name="elevation_profile_time">Шлях:</string>
 	<string name="isolines_toast_zooms_1_10">Збільште мапу, щоб побачити ізолінії</string>
+	<string name="downloader_loading_ios">Завантаження</string>
 	<string name="download_map_title">Завантажити карту світу</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Неможливо створити папку та перемістити файли до внутрішньої памʼяті або SD карти</string>
@@ -764,6 +765,8 @@
 	<string name="aa_grant_permissions">Надавати дозволи</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Підключено до автомобіля</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Активний відпочинок</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Адреса/блок</string>

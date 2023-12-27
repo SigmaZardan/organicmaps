@@ -184,7 +184,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">E-post</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Kopeeritud vahemällu: %1$s</string>
+	<string name="copied_to_clipboard">Kopeeritud vahemällu: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Valmis</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -286,9 +286,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Värskenda kaart</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play teenused</string>
+	<string name="google_play_services">Google Play asukohateenused</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Kasuta Google Play teenuseid oma hetkeasukoha määramiseks</string>
+	<string name="pref_use_google_play">Määrake kiiresti oma ligikaudne asukoht Bluetoothi, WiFi või mobiilivõrgu kaudu</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Lae alla kõik kaardid oma marsruudil</string>
 	<!-- Text for routing error dialog -->
@@ -609,7 +609,7 @@
 	<string name="terms_of_use">Kasutustingimused</string>
 	<string name="button_layer_traffic">Liiklus</string>
 	<string name="button_layer_subway">Metroo</string>
-	<string name="layers_title">Kaardikihid</string>
+	<string name="layers_title">Kaardi stiilid ja kihid</string>
 	<string name="subway_data_unavailable">Metroo kaart ei ole saadaval</string>
 	<string name="bookmarks_empty_list_title">See loetelu on tühi</string>
 	<string name="bookmarks_empty_list_message">Järjehoidja lisamiseks puuduta kohta kaardil ja seejärel puuduta tähekese ikooni</string>
@@ -711,6 +711,7 @@
 	<string name="elevation_profile_distance">Kaugus:</string>
 	<string name="elevation_profile_time">Aeg:</string>
 	<string name="isolines_toast_zooms_1_10">Isojoonte sirvimiseks suurenda kaarti</string>
+	<string name="downloader_loading_ios">Allalaadimine</string>
 	<string name="download_map_title">Maailma kaardi allalaadimine</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Seadme sisemällu või mälukaardile ei saa kausta luua ja faile teisaldada</string>
@@ -747,6 +748,8 @@
 	<string name="aa_grant_permissions">Lubade andmine</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Ühendatud autoga</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Matkamine</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Aadress/plokk</string>

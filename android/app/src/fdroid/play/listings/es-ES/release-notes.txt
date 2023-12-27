@@ -1,6 +1,8 @@
-• New OpenStreetMap data as of November 13
-• The maximum zoom level is twice as deep as it was before
-• Fixed import of bookmarks in KMB format
-• Disabled the screen wake lock by default to improve power-saving
-• Corrected the location search indication when the map is moved or zoomed
-• Outdoors map style preview - read on how to activate it and about many other improvements on omaps.org/news
+La comunidad de Organic Maps le trae como regalo de Navidad y Año Nuevo:
+• Estilo de mapa «para exteriores», adecuado para senderismo, ciclismo y exploración de la naturaleza
+• Búsqueda de direcciones mejorada
+• Escriba «esquí» para encontrar pistas y desniveles
+• Datos cartográficos de OpenStreetMap al 13 de diciembre
+• Compruebe fotos, reseñas y precios de algunos hoteles. Sus donativos y reservaciones contribuyen con el desarrollo de Organic Maps.
+
+omaps.org/es/news

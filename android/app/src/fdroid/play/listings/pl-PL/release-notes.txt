@@ -1,6 +1,8 @@
-• Aktualizacja danych OpenStreetMap z 13 listopada
-• Maksymalny poziom powiększenia, jest dwukrotnie większy niż wcześniej
-• Naprawiono import zakładek w formacie KMB
-• Domyślnie wyłączono blokadę wybudzania ekranu, aby poprawić oszczędzanie energii
-• Poprawiono wskaźnik wyszukiwania lokalizacji, gdy mapa jest przesuwana lub powiększana
-• Podgląd stylu mapy plenerowej — przeczytaj, jak ją aktywować, oraz o wielu innych ulepszeniach, na stronie omaps.org/pl/news
+Prezenty świąteczne i noworoczne od społeczności Organic Maps:
+• Styl mapy przeznaczony do uprawiania turystyki pieszej, rowerowej i odkrywania przyrody na świeżym powietrzu
+• Wyszukiwanie adresów wsi bez ulic
+• Wpisz „narciarstwo”, aby znaleźć trasy zjazdowe i biegi narciarskie.
+• Dane mapy OpenStreetMap na dzień 13 grudnia
+• Sprawdź zdjęcia, recenzje i ceny niektórych hoteli. Wszystkie Twoje darowizny i rezerwacje przyczyniają się do rozwoju Organic Maps!
+
+omaps.org/pl/news

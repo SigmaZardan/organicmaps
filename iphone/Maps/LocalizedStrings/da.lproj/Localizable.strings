@@ -190,6 +190,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message when used successfully copied something */
+"copied_to_clipboard" = "Kopieret til udklipsholderen: %@";
+
 /* place preview title */
 "info" = "Info";
 
@@ -976,7 +979,7 @@
 
 "button_layer_subway" = "Undergrundsbane";
 
-"layers_title" = "Kortlag";
+"layers_title" = "Kortstile og -lag";
 
 "subway_data_unavailable" = "Kort over undergrundsbaner er ikke tilgængeligt";
 
@@ -1231,6 +1234,9 @@
 
 /* Link to OSM wiki for Editor, Profile and About pages */
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Da:Om_OpenStreetMap";
+
+/* Outdoors/hiking map style (activity) name in the Styles and Layers dialog */
+"button_layer_outdoor" = "Vandring";
 
 
 /********** Types **********/

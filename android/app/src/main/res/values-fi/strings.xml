@@ -194,7 +194,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Sähköposti</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Kopioitu leikepöydälle: %1$s</string>
+	<string name="copied_to_clipboard">Kopioitu leikepöydälle: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Valmis</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -298,9 +298,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Päivitä kartta</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play -palvelut</string>
+	<string name="google_play_services">Google Play Sijaintipalvelut</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Käytä Google Play -palveluita sijaintisi selvittämiseksi</string>
+	<string name="pref_use_google_play">Määritä nopeasti likimääräinen sijaintisi Bluetoothin, WiFin tai matkapuhelinverkon kautta</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Lataa karttoja matkalla</string>
 	<!-- Text for routing error dialog -->
@@ -624,7 +624,7 @@
 	<string name="terms_of_use">Käyttöehdot</string>
 	<string name="button_layer_traffic">Liikenne</string>
 	<string name="button_layer_subway">Metro</string>
-	<string name="layers_title">Karttatasot</string>
+	<string name="layers_title">Karttatyylit ja tasot</string>
 	<string name="subway_data_unavailable">Metrokartta ei ole saatavilla</string>
 	<string name="bookmarks_empty_list_title">Luettelo on tyhjä</string>
 	<string name="bookmarks_empty_list_message">Lisätäksesi kirjanmerkin, paina kartasta ja sitten paina tähden kuvaa</string>
@@ -726,6 +726,7 @@
 	<string name="elevation_profile_distance">Etäisyys:</string>
 	<string name="elevation_profile_time">Aika:</string>
 	<string name="isolines_toast_zooms_1_10">Suurenna kartta nähdäksesi korkeuskäyrät</string>
+	<string name="downloader_loading_ios">Ladataan</string>
 	<string name="download_map_title">Lataa maailmankartta</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Kansion luonti ja tiedoston siirto ei onnistu laitteen muistissa tai SD-koritlla</string>
@@ -762,6 +763,8 @@
 	<string name="aa_grant_permissions">Lupien myöntäminen</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Liitetty autoon</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Vaellus</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Osoite/lohko</string>
@@ -1934,7 +1937,7 @@
 	<string name="type.tourism.attraction.specified">Nähtävyys</string>
 	<string name="type.tourism.camp_site">Retkeily</string>
 	<string name="type.tourism.caravan_site">Asuntovaunupaikka</string>
-	<string name="type.tourism.chalet">Alppimaja</string>
+	<string name="type.tourism.chalet">Mökki</string>
 	<string name="type.tourism.gallery">Nähtävyydet</string>
 	<string name="type.tourism.guest_house">Majatalo</string>
 	<string name="type.tourism.hostel">Hostelli</string>

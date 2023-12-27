@@ -190,6 +190,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "邮件";
 
+/* Text for message when used successfully copied something */
+"copied_to_clipboard" = "复制到剪贴板：%@";
+
 /* place preview title */
 "info" = "信息";
 
@@ -340,7 +343,7 @@
 "downloader_available_maps" = "可用";
 
 /* Country queued for download */
-"downloader_queued" = "已排队";
+"downloader_queued" = "已加入到下载队列";
 
 "downloader_near_me_subtitle" = "在我附近";
 
@@ -553,9 +556,9 @@
 /* Text for allday switch. */
 "editor_time_allday" = "全天（24小时）";
 
-"editor_time_open" = "营业中";
+"editor_time_open" = "开始营业时间";
 
-"editor_time_close" = "未营业";
+"editor_time_close" = "结束营业时间";
 
 "editor_time_add_closed" = "添加非营业时间";
 
@@ -976,7 +979,7 @@
 
 "button_layer_subway" = "地铁";
 
-"layers_title" = "地图图层";
+"layers_title" = "地图样式和图层";
 
 "subway_data_unavailable" = "地铁地图不可用";
 
@@ -1231,6 +1234,9 @@
 
 /* Link to OSM wiki for Editor, Profile and About pages */
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+
+/* Outdoors/hiking map style (activity) name in the Styles and Layers dialog */
+"button_layer_outdoor" = "徒步旅行";
 
 
 /********** Types **********/
@@ -1522,7 +1528,7 @@
 
 "type.amenity.restaurant" = "餐馆";
 
-"type.amenity.sanitary_dump_station" = "Holding Tank Dump Station";
+"type.amenity.sanitary_dump_station" = "储液池排泄站";
 
 "type.amenity.school" = "学校";
 
@@ -1568,7 +1574,7 @@
 
 "type.amenity.vending_machine.excrement_bags" = "Excrement Bags Dispenser";
 
-"type.amenity.parcel_locker" = "Parcel Locker";
+"type.amenity.parcel_locker" = "包裹储物柜";
 
 "type.amenity.vehicle_inspection" = "车辆检验";
 
@@ -1580,7 +1586,7 @@
 
 "type.amenity.waste_disposal" = "大型垃圾箱";
 
-"type.amenity.waste_transfer_station" = "Waste Transfer Station";
+"type.amenity.waste_transfer_station" = "垃圾转运站";
 
 "type.amenity.water_point" = "取水点";
 
@@ -2554,7 +2560,7 @@
 
 "type.man_made.survey_point" = "Survey Point";
 
-"type.man_made.flagpole" = "Flagpole";
+"type.man_made.flagpole" = "旗杆";
 
 "type.man_made.lighthouse" = "灯塔";
 
@@ -3427,7 +3433,7 @@
 
 "type.shop.car_repair.tyres" = "轮胎修理";
 
-"type.shop.caravan" = "RV Dealership";
+"type.shop.caravan" = "房车经销商";
 
 "type.shop.carpet" = "地毯";
 
@@ -3495,7 +3501,7 @@
 
 "type.shop.hifi" = "HiFi";
 
-"type.shop.houseware" = "Housewares Store";
+"type.shop.houseware" = "家居用品商店";
 
 "type.shop.jewelry" = "珠宝店";
 

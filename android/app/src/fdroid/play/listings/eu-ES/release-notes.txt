@@ -1,6 +1,6 @@
-• New OpenStreetMap data as of November 13
-• The maximum zoom level is twice as deep as it was before
-• Fixed import of bookmarks in KMB format
-• Disabled the screen wake lock by default to improve power-saving
-• Corrected the location search indication when the map is moved or zoomed
-• Outdoors map style preview - read on how to activate it and about many other improvements on omaps.org/news
+Organic Maps komunitatearen Gabonetako eta Urte Berriko opariak zuretzat:
+• Kanpoko mapa estiloa mendi-ibilaldiak egiteko, bizikletan ibiltzeko eta natura esploratzeko
+• Bilatu kalerik gabeko herri-helbideak Austria, Txekia, Alemania, Polonia, Eslovakian
+• Idatzi "eskia" mendiko pistak aurkitzeko
+• OpenStreetMap maparen datuak abenduaren 13tik aurrera
+• Egiaztatu hotel batzuen argazkiak, iritziak eta prezioak. Zure dohaintza eta erreserba guztiek OMaps garatzen laguntzen dute!

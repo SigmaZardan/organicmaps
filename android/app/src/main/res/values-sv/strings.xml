@@ -177,7 +177,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">E-post</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Kopierat till urklippsbordet: %1$s</string>
+	<string name="copied_to_clipboard">Kopierat till urklippsbordet: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Klar</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -275,9 +275,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Uppdatera karta</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play-tjänster</string>
+	<string name="google_play_services">Google Play platstjänster</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Använd Google Play Services för att bestämma din aktuella position</string>
+	<string name="pref_use_google_play">Fastställ snabbt din ungefärliga position via Bluetooth, WiFi eller mobilnät</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Ladda ned kartor längs vägen</string>
 	<!-- Text for routing error dialog -->
@@ -586,7 +586,7 @@
 	<string name="terms_of_use">Allmänna villkor</string>
 	<string name="button_layer_traffic">Trafik</string>
 	<string name="button_layer_subway">Tunnelbana</string>
-	<string name="layers_title">Kartlager</string>
+	<string name="layers_title">Kartstilar och lager</string>
 	<string name="subway_data_unavailable">Kartor över tunnelbana är otillgänglig</string>
 	<string name="bookmarks_empty_list_title">Listan är tom</string>
 	<string name="bookmarks_empty_list_message">För att lägga till bokmärken, tryck på kartan och sedan på stjärnikonen</string>
@@ -684,10 +684,11 @@
 	<string name="elevation_profile_descent">Backe</string>
 	<string name="elevation_profile_minaltitude">Min. höjd</string>
 	<string name="elevation_profile_maxaltitude">Max. höjd</string>
-	<string name="elevation_profile_difficulty">Komplexitet</string>
+	<string name="elevation_profile_difficulty">Svårighet</string>
 	<string name="elevation_profile_distance">Avst.:</string>
 	<string name="elevation_profile_time">Tid:</string>
 	<string name="isolines_toast_zooms_1_10">Förstora kartan för att se isolinjer</string>
+	<string name="downloader_loading_ios">Nedladdning</string>
 	<string name="enable_keep_screen_on">Håll skärmen på</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">När den är aktiverad kommer skärmen alltid att vara på när kartan visas.</string>
@@ -713,6 +714,8 @@
 	<string name="aa_grant_permissions">Tilldela behörigheter</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Ansluten till bilen</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Vandring</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adress/Block</string>

@@ -194,7 +194,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">E-posta</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Panoya kopyalandı: %1$s</string>
+	<string name="copied_to_clipboard">Panoya kopyalandı: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Bitti</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -296,9 +296,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Haritayı Güncelle</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play Hizmetleri</string>
+	<string name="google_play_services">Google Play Konum Hizmetleri</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Mevcut konumunuzu belirlemek için Google Play Hizmetlerini kullanın</string>
+	<string name="pref_use_google_play">Bluetooth, WiFi veya mobil ağ üzerinden yaklaşık konumunuzu hızlıca belirleyin</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Rota üzerindeki tüm haritaları indir</string>
 	<!-- Text for routing error dialog -->
@@ -618,7 +618,7 @@
 	<string name="terms_of_use">Kullanım koşulları</string>
 	<string name="button_layer_traffic">Trafik</string>
 	<string name="button_layer_subway">Metro</string>
-	<string name="layers_title">Harita katmanları</string>
+	<string name="layers_title">Harita Stilleri ve Katmanları</string>
 	<string name="subway_data_unavailable">Metro haritası mevcut değil</string>
 	<string name="bookmarks_empty_list_title">Bu liste boş</string>
 	<string name="bookmarks_empty_list_message">Yer imi eklemek için önce haritadaki bir yere sonrasında ise yıldız simgesine dokunun</string>
@@ -720,6 +720,7 @@
 	<string name="elevation_profile_distance">Mesafe:</string>
 	<string name="elevation_profile_time">Süre:</string>
 	<string name="isolines_toast_zooms_1_10">İzohipsleri görmek için haritayı büyütün</string>
+	<string name="downloader_loading_ios">İndiriliyor</string>
 	<string name="download_map_title">Dünya haritasını indir</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Dahili aygıtın belleğinde veya SD kartta klasör oluşturulamıyor ve dosyalar taşınamıyor</string>
@@ -764,6 +765,8 @@
 	<string name="aa_grant_permissions">İzinleri Verin</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Arabaya bağlı</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Yürüyüş</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adres/Blok</string>

@@ -179,7 +179,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">邮件</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">复制到剪贴板:%1$s</string>
+	<string name="copied_to_clipboard">复制到剪贴板：%s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">完成</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -266,7 +266,7 @@
 	<!-- Downloaded maps list header -->
 	<string name="downloader_downloaded_subtitle">已下载</string>
 	<!-- Country queued for download -->
-	<string name="downloader_queued">已排队</string>
+	<string name="downloader_queued">已加入到下载队列</string>
 	<string name="downloader_near_me_subtitle">在我附近</string>
 	<!-- In maps downloader and country place page shows how many maps are downloaded / to download, e.g. "Maps: 3 of 10" -->
 	<string name="downloader_status_maps">地图</string>
@@ -285,9 +285,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">更新地图</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play 服务</string>
+	<string name="google_play_services">Google Play 定位服务</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">使用Google Play服务以获取您的当前位置。</string>
+	<string name="pref_use_google_play">通过蓝牙、WiFi 或移动网络快速确定您的大致位置</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">下载沿线地图</string>
 	<!-- Text for routing error dialog -->
@@ -393,8 +393,8 @@
 	<string name="editor_time_delete">删除计划</string>
 	<!-- Text for allday switch. -->
 	<string name="editor_time_allday">全天（24小时）</string>
-	<string name="editor_time_open">营业中</string>
-	<string name="editor_time_close">未营业</string>
+	<string name="editor_time_open">开始营业时间</string>
+	<string name="editor_time_close">结束营业时间</string>
 	<string name="editor_time_add_closed">添加非营业时间</string>
 	<string name="editor_time_title">营业时间</string>
 	<string name="editor_time_advanced">高级模式</string>
@@ -441,6 +441,7 @@
 	<string name="select_cuisine">选择菜肴</string>
 	<!-- login text field -->
 	<string name="email_or_username">邮箱或用户名</string>
+	<string name="editor_add_phone">新增电话号码</string>
 	<string name="level">楼层</string>
 	<string name="downloader_delete_map_dialog">所有对地图的修改都将与地图一起被删除。</string>
 	<string name="downloader_update_maps">更新地图</string>
@@ -595,7 +596,7 @@
 	<string name="terms_of_use">使用条款</string>
 	<string name="button_layer_traffic">路况</string>
 	<string name="button_layer_subway">地铁</string>
-	<string name="layers_title">地图图层</string>
+	<string name="layers_title">地图样式和图层</string>
 	<string name="subway_data_unavailable">地铁地图不可用</string>
 	<string name="bookmarks_empty_list_title">该列表为空</string>
 	<string name="bookmarks_empty_list_message">要添加新标签，请单击对象卡中的星形图标</string>
@@ -697,6 +698,7 @@
 	<string name="elevation_profile_distance">距离：</string>
 	<string name="elevation_profile_time">在路上：</string>
 	<string name="isolines_toast_zooms_1_10">放大地图以查看等高线</string>
+	<string name="downloader_loading_ios">加载</string>
 	<string name="download_map_title">下载世界地图</string>
 	<string name="enable_keep_screen_on">保持屏幕打开</string>
 	<!-- Description in preferences -->
@@ -725,6 +727,8 @@
 	<string name="aa_grant_permissions">授予权限</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">与汽车连接</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">徒步旅行</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">地址/区块</string>
@@ -867,6 +871,7 @@
 	<string name="type.recycling.scrap_metal">废金属</string>
 	<string name="type.recycling.small_appliances">电子垃圾</string>
 	<string name="type.amenity.restaurant">餐馆</string>
+	<string name="type.amenity.sanitary_dump_station">储液池排泄站</string>
 	<string name="type.amenity.school">学校</string>
 	<string name="type.amenity.shelter">庇护所</string>
 	<string name="type.amenity.public_bath">公共浴场</string>
@@ -883,10 +888,12 @@
 	<string name="type.amenity.vending_machine.drinks">饮料售货机</string>
 	<string name="type.amenity.vending_machine.parking_tickets">停车缴费机</string>
 	<string name="type.amenity.vending_machine.public_transport_tickets">公共交通售票机</string>
+	<string name="type.amenity.parcel_locker">包裹储物柜</string>
 	<string name="type.amenity.vehicle_inspection">车辆检验</string>
 	<string name="type.amenity.veterinary">兽医</string>
 	<string name="type.amenity.waste_basket">垃圾篓</string>
 	<string name="type.amenity.waste_disposal">大型垃圾箱</string>
+	<string name="type.amenity.waste_transfer_station">垃圾转运站</string>
 	<string name="type.amenity.water_point">取水点</string>
 	<string name="type.barrier">屏障</string>
 	<string name="type.barrier.block">路障</string>
@@ -1371,6 +1378,7 @@
 	<string name="type.man_made.breakwater">防波堤</string>
 	<string name="type.man_made.chimney">工厂烟囱</string>
 	<string name="type.man_made.cutline">树林分界线</string>
+	<string name="type.man_made.flagpole">旗杆</string>
 	<string name="type.man_made.lighthouse">灯塔</string>
 	<string name="type.man_made.pier">码头</string>
 	<string name="type.man_made.pipeline">管道</string>
@@ -1784,6 +1792,7 @@
 	<string name="type.shop.car_parts">汽车零件</string>
 	<string name="type.shop.car_repair">汽车修理店</string>
 	<string name="type.shop.car_repair.tyres">轮胎修理</string>
+	<string name="type.shop.caravan">房车经销商</string>
 	<string name="type.shop.carpet">地毯</string>
 	<string name="type.shop.chemist">药妆店</string>
 	<string name="type.shop.chocolate">商店</string>
@@ -1817,6 +1826,7 @@
 	<string name="type.shop.health_food">保健食品店</string>
 	<string name="type.shop.herbalist">草药店</string>
 	<string name="type.shop.hifi">HiFi</string>
+	<string name="type.shop.houseware">家居用品商店</string>
 	<string name="type.shop.jewelry">珠宝店</string>
 	<string name="type.shop.kiosk">商店</string>
 	<string name="type.shop.kitchen">厨房用品店</string>

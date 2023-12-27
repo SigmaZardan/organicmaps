@@ -1,6 +1,8 @@
-• New OpenStreetMap data as of November 13
-• The maximum zoom level is twice as deep as it was before
-• Fixed import of bookmarks in KMB format
-• Disabled the screen wake lock by default to improve power-saving
-• Corrected the location search indication when the map is moved or zoomed
-• Outdoors map style preview - read on how to activate it and about many other improvements on omaps.org/news
+Karácsonyi és újévi ajándékokkal várunk az Organic Maps közösségétől:
+• Kültéri térképstílus, ami ideális túrázáshoz, biciklizéshez és a természet felfedezéséhez
+• Címkeresési javítások számos országban
+• Írja be a "Síelés" szót, hogy síterepet találjon
+• OpenStreetMap.org térképek 13.12.2023-tól
+• Egyes hoteleknél már megtekinthetőek azok értékeléseik, fényképeik és árazásuk. Minden anyagi támogatás és hotelfoglalás az Organic Maps további fejlesztését segíti!
+
+omaps.org/hu/news

@@ -157,7 +157,7 @@
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
 	<string name="share">הפץ</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">הועתקו לזכרון זמני %1$s</string>
+	<string name="copied_to_clipboard">הועתקו לזכרון זמני %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">בוצע</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -211,6 +211,10 @@
 	<string name="downloader_delete_map">מחק מפה</string>
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">עדכן מפה</string>
+	<!-- Preference title -->
+	<string name="google_play_services">שירותי מיקום של Google Play</string>
+	<!-- Preference text -->
+	<string name="pref_use_google_play">קבע במהירות את המיקום המשוער שלך באמצעות Bluetooth, WiFi או רשת סלולרית</string>
 
 	<!-- SECTION: Routing dialogs strings -->
 	<string name="dialog_routing_disclaimer_title">בעת נסיעה לאורך המסלול, שים לב לדברים הבאים:</string>
@@ -263,6 +267,7 @@
 	<string name="bookmarks_import">ייבוא סימניות ורצועות</string>
 	<!-- Settings privacy group in settings screen -->
 	<string name="privacy">פְּרָטִיוּת</string>
+	<string name="layers_title">סגנונות ושכבות מפה</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
 	<string name="avoid_tolls">הימנעו מכבישי אגרה</string>
 	<!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -295,6 +300,8 @@
 	<string name="aa_grant_permissions">הענק הרשאות</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">מחובר לרכב</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">טיול רגלי</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">כתובת/חסימה</string>

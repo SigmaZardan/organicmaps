@@ -195,7 +195,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">البريد الالكتروني</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">تم النسخ الى الحافظة: %1$s</string>
+	<string name="copied_to_clipboard">تم النسخ الى الحافظة: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">تم</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -309,9 +309,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">تحديث الخريطة</string>
 	<!-- Preference title -->
-	<string name="google_play_services">خدمات Google Play</string>
+	<string name="google_play_services">خدمات الموقع في جوجل بلاي</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">استخدام خدمات Google Play لتحديد موقعك الحالي</string>
+	<string name="pref_use_google_play">حدد موقعك التقريبي بسرعة باستخدام Bluetooth أو WiFi أو شبكة الهاتف المحمول</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">تنزيل الخرائط على طول طريقك</string>
 	<!-- Text for routing error dialog -->
@@ -631,7 +631,7 @@
 	<string name="terms_of_use">شروط الاستخدام</string>
 	<string name="button_layer_traffic">حركة مرور</string>
 	<string name="button_layer_subway">مترو الانفاق</string>
-	<string name="layers_title">طبقات الخريطة</string>
+	<string name="layers_title">أنماط الخريطة وطبقاتها</string>
 	<string name="subway_data_unavailable">خريطة مترو الانفاق غير متوفرة</string>
 	<string name="bookmarks_empty_list_title">هذه اللائحة فارغة</string>
 	<string name="bookmarks_empty_list_message">لإضافة إشارة مرجعية ، اضغط على مكان على الخريطة ثم انقر على رمز النجمة</string>
@@ -733,6 +733,7 @@
 	<string name="elevation_profile_distance">المسافة:</string>
 	<string name="elevation_profile_time">المدة:</string>
 	<string name="isolines_toast_zooms_1_10">قم بالتقريب لتكتشف خطوط الكنتور</string>
+	<string name="downloader_loading_ios">جاري التنزيل</string>
 	<string name="download_map_title">تنزيل خريطة العالم</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">تعذر إنشاء المجلد ونقل الملفات على الذاكرة الداخلية للجهاز أو على بطاقة SD</string>
@@ -771,6 +772,8 @@
 	<string name="aa_grant_permissions">أذونات المنح</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">متصل بالسيارة</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">جولة على الأقدام</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">العنوان / البلوك</string>

@@ -190,7 +190,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Copiado para a área de transferência: %1$s</string>
+	<string name="copied_to_clipboard">Copiado para a área de transferência: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Feito</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -290,7 +290,7 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Atualizar mapa</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Usar Serviços do Google Play para determinar a sua localização atual</string>
+	<string name="pref_use_google_play">Determine rapidamente sua localização aproximada via Bluetooth, WiFi ou rede móvel</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Baixar todos os mapas ao longo do trajeto</string>
 	<!-- Text for routing error dialog -->
@@ -595,7 +595,6 @@
 	<string name="terms_of_use">Termos de uso</string>
 	<string name="button_layer_traffic">Tráfego</string>
 	<string name="button_layer_subway">Metrô</string>
-	<string name="layers_title">Camadas de mapa</string>
 	<string name="subway_data_unavailable">Mapa de metrô está indisponível</string>
 	<string name="bookmarks_empty_list_title">Esta lista está vazia</string>
 	<string name="bookmarks_empty_list_message">Para adicionar um favorito, toque no mapa e então toque no ícone de estrela</string>
@@ -697,6 +696,7 @@
 	<string name="elevation_profile_distance">Dist.:</string>
 	<string name="elevation_profile_time">Tempo:</string>
 	<string name="isolines_toast_zooms_1_10">Use o zoom para explorar as isolinhas</string>
+	<string name="downloader_loading_ios">Baixando</string>
 	<string name="download_map_title">Baixar mapa mundial</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Não foi possível criar a pasta e mover os arquivos à memória interna ou sdcard do dispositivo</string>

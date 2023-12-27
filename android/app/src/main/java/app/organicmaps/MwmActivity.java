@@ -187,7 +187,6 @@ public class MwmActivity extends BaseMwmFragmentActivity
   private PlacePageViewModel mPlacePageViewModel;
   private MapButtonsViewModel mMapButtonsViewModel;
   private MapButtonsController.LayoutMode mPreviousMapLayoutMode;
-  private Mode mPreviousLayerMode;
 
   @Nullable
   private WindowInsetsCompat mCurrentWindowInsets;
@@ -475,8 +474,6 @@ public class MwmActivity extends BaseMwmFragmentActivity
     // We don't need to manually handle removing the observers it follows the activity lifecycle
     mMapButtonsViewModel.getBottomButtonsHeight().observe(this, this::onMapBottomButtonsHeightChange);
     mMapButtonsViewModel.getLayoutMode().observe(this, this::initNavigationButtons);
-    mPreviousLayerMode = mMapButtonsViewModel.getMapLayerMode().getValue();
-    mMapButtonsViewModel.getMapLayerMode().observe(this, this::onLayerChange);
 
     mSearchController = new FloatingSearchToolbarController(this, this);
     mSearchController.getToolbar()
@@ -1097,6 +1094,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
     LocationState.nativeSetListener(this);
     LocationHelper.from(this).addListener(this);
     mSearchController.attach(this);
+    Utils.keepScreenOn(Config.isKeepScreenOnEnabled() || RoutingController.get().isNavigating(), getWindow());
   }
 
   @Override
@@ -1715,11 +1713,6 @@ public class MwmActivity extends BaseMwmFragmentActivity
     if (controller.isPlanning() || controller.isBuilding() || controller.isErrorEncountered())
       showAddStartOrFinishFrame(controller, true);
 
-    if (newMode == FOLLOW || newMode == FOLLOW_AND_ROTATE)
-      Utils.keepScreenOn(Config.isKeepScreenOnEnabled() || RoutingController.get().isNavigating(), getWindow());
-    else
-      Utils.keepScreenOn(RoutingController.get().isNavigating(), getWindow());
-
     final LocationHelper locationHelper = LocationHelper.from(this);
 
     // Check if location was disabled by the user.
@@ -2131,13 +2124,6 @@ public class MwmActivity extends BaseMwmFragmentActivity
   {
     closeFloatingPanels();
     shareMyLocation();
-  }
-
-  public void onLayerChange(Mode mode)
-  {
-    if (mPreviousLayerMode != mode)
-      closeFloatingPanels();
-    mPreviousLayerMode = mode;
   }
 
   @Override

@@ -190,6 +190,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
 
+/* Text for message when used successfully copied something */
+"copied_to_clipboard" = "Naar het klembord gekopieerd: %@";
+
 /* place preview title */
 "info" = "Info";
 
@@ -976,7 +979,7 @@
 
 "button_layer_subway" = "Metro";
 
-"layers_title" = "Kaartweergave";
+"layers_title" = "Kaartstijlen en -lagen";
 
 "subway_data_unavailable" = "Metrokaart is niet beschikbaar";
 
@@ -1231,6 +1234,9 @@
 
 /* Link to OSM wiki for Editor, Profile and About pages */
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/NL:Wat_is_OpenStreetMap%3F";
+
+/* Outdoors/hiking map style (activity) name in the Styles and Layers dialog */
+"button_layer_outdoor" = "Wandelen";
 
 
 /********** Types **********/

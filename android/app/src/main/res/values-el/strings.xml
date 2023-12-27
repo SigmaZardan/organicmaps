@@ -180,7 +180,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Αντιγράφηκε στο Πρόχειρο: %1$s</string>
+	<string name="copied_to_clipboard">Αντιγράφηκε στο Πρόχειρο: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Ολοκληρώθηκε</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -277,9 +277,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Ενημέρωση χάρτη</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Υπηρεσίες Google Play</string>
+	<string name="google_play_services">Υπηρεσίες τοποθεσίας Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Χρησιμοποιήστε υπηρεσίες Google Play για να προσδιορίσετε την τρέχουσα τοποθεσία σας</string>
+	<string name="pref_use_google_play">Προσδιορίστε γρήγορα την κατά προσέγγιση τοποθεσία σας μέσω Bluetooth, WiFi ή δικτύου κινητής τηλεφωνίας</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Κατεβάστε όλους τους χάρτες για ολόκληρο το μήκος της διαδρομής σας</string>
 	<!-- Text for routing error dialog -->
@@ -579,7 +579,7 @@
 	<string name="terms_of_use">Όροι χρήσης</string>
 	<string name="button_layer_traffic">Κίνηση</string>
 	<string name="button_layer_subway">Μετρό</string>
-	<string name="layers_title">Επίπεδα του χάρτη</string>
+	<string name="layers_title">Στυλ χάρτη και επίπεδα</string>
 	<string name="subway_data_unavailable">Ο χάρτης μετρό δεν είναι διαθέσιμος</string>
 	<string name="bookmarks_empty_list_title">Η λίστα είναι άδεια</string>
 	<string name="bookmarks_empty_list_message">Για να προσθέσετε σελιδοδείκτη, πατήστε ένα μέρος στο χάρτη και μετά πατήστε το αστεράκι</string>
@@ -681,6 +681,7 @@
 	<string name="elevation_profile_distance">Απόστ.:</string>
 	<string name="elevation_profile_time">Διαρκ:</string>
 	<string name="isolines_toast_zooms_1_10">Μεγεθύνετε για να δείτε περιγράμματα</string>
+	<string name="downloader_loading_ios">Φόρτωση</string>
 	<string name="enable_keep_screen_on">Κρατήστε την οθόνη ανοιχτή</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Όταν είναι ενεργοποιημένη, η οθόνη θα είναι πάντα αναμμένη όταν εμφανίζεται ο χάρτης.</string>
@@ -706,6 +707,8 @@
 	<string name="aa_grant_permissions">Χορήγηση αδειών</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Συνδεδεμένο με το αυτοκίνητο</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Πεζοπορία</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Διεύθυνση/Μπλοκ</string>

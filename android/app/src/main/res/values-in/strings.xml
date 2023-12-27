@@ -181,7 +181,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Surel</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Telah Disalin ke Papan Klip: %1$s</string>
+	<string name="copied_to_clipboard">Telah Disalin ke Papan Klip: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Selesai</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -279,9 +279,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Perbarui Peta</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Layanan Google Play</string>
+	<string name="google_play_services">Layanan Lokasi Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Gunakan Layanan Google Play untuk mendapatkan lokasi Anda saat ini</string>
+	<string name="pref_use_google_play">Dengan cepat menentukan perkiraan lokasi Anda melalui Bluetooth, WiFi, atau jaringan seluler</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Unduh peta bersama rute</string>
 	<!-- Text for routing error dialog -->
@@ -588,7 +588,7 @@
 	<string name="terms_of_use">Ketentuan penggunaan</string>
 	<string name="button_layer_traffic">Lalu lintas</string>
 	<string name="button_layer_subway">Kereta bawah tanah</string>
-	<string name="layers_title">Lapisan peta</string>
+	<string name="layers_title">Gaya dan Lapisan Peta</string>
 	<string name="subway_data_unavailable">Peta bawah tanah tidak tersedia</string>
 	<string name="bookmarks_empty_list_title">Daftar ini kosong</string>
 	<string name="bookmarks_empty_list_message">Untuk menambahkan bookmark, ketuk satu tempat di peta lalu ketuk ikon bintang</string>
@@ -690,6 +690,7 @@
 	<string name="elevation_profile_distance">Jarak:</string>
 	<string name="elevation_profile_time">Waktu:</string>
 	<string name="isolines_toast_zooms_1_10">Perbesar untuk menjelajahi garis kontur</string>
+	<string name="downloader_loading_ios">Mengunduh</string>
 	<string name="enable_keep_screen_on">Biarkan layar tetap menyala</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Apabila diaktifkan, layar akan selalu menyala ketika menampilkan peta.</string>
@@ -715,6 +716,8 @@
 	<string name="aa_grant_permissions">Memberikan Izin</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Terhubung ke mobil</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Pendakian</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Alamat/Blokir</string>

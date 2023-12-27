@@ -180,7 +180,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">E-mail</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Copiato in appunti: %1$s</string>
+	<string name="copied_to_clipboard">Copiato in appunti: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Fatto</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -281,8 +281,10 @@
 	<string name="downloader_delete_map">Elimina mappa</string>
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Aggiorna mappa</string>
+	<!-- Preference title -->
+	<string name="google_play_services">Servizi di localizzazione di Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Usa i servizi Google Play per ottenere la tua posizione attuale</string>
+	<string name="pref_use_google_play">Determina rapidamente la tua posizione approssimativa tramite Bluetooth, WiFi o rete mobile</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Scarica le mappe lungo il percorso</string>
 	<!-- Text for routing error dialog -->
@@ -603,7 +605,7 @@
 	<string name="terms_of_use">Condizioni d\'uso</string>
 	<string name="button_layer_traffic">Traffico</string>
 	<string name="button_layer_subway">Metropolitana</string>
-	<string name="layers_title">Livelli mappa</string>
+	<string name="layers_title">Stili e livelli di mappa</string>
 	<string name="subway_data_unavailable">La mappa della metropolitana non è disponibile</string>
 	<string name="bookmarks_empty_list_title">Questo elenco è vuoto</string>
 	<string name="bookmarks_empty_list_message">Per aggiungere un luogo preferito, tieni premuto un punto sulla mappa e poi tocca l\'icona a forma di stella</string>
@@ -705,6 +707,7 @@
 	<string name="elevation_profile_distance">Dist.:</string>
 	<string name="elevation_profile_time">Tempo:</string>
 	<string name="isolines_toast_zooms_1_10">Ingrandisci mappa per vedere l\'isolinea</string>
+	<string name="downloader_loading_ios">Download in corso</string>
 	<string name="download_map_title">Scarica la mappa del mondo</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="connection_failure">Errore di connessione</string>
@@ -741,6 +744,8 @@
 	<string name="aa_grant_permissions">Concessione dei permessi</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Collegato all\'auto</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Escursioni</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Indirizzo/Blocco</string>

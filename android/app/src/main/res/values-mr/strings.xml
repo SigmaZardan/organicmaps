@@ -168,7 +168,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">ई-मेल</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">क्लिपबोर्डावर कॉपी केले: %1$s</string>
+	<string name="copied_to_clipboard">क्लिपबोर्डावर कॉपी केले: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">झाले</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -268,9 +268,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">नकाशा अद्ययावत करा</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play सेवा</string>
+	<string name="google_play_services">Google Play स्थान सेवा</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">तुमचे वर्तमान स्थान निर्धारित करण्यासाठी Google Play सेवा वापरा</string>
+	<string name="pref_use_google_play">ब्लूटूथ, वायफाय किंवा मोबाइल नेटवर्क वापरून तुमचे अंदाजे स्थान द्रुतपणे निर्धारित करा</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">तुमच्या मार्गावरील सर्व नकाशे डाउनलोड करा</string>
 	<!-- Text for routing error dialog -->
@@ -584,7 +584,7 @@
 	<string name="terms_of_use">वापरण्याच्या अटी</string>
 	<string name="button_layer_traffic">ट्रॅफिक</string>
 	<string name="button_layer_subway">भुयारी मार्ग</string>
-	<string name="layers_title">नकाशा स्तर</string>
+	<string name="layers_title">नकाशा शैली आणि स्तर</string>
 	<string name="subway_data_unavailable">भुयारी नकाशा अनुपलब्ध आहे</string>
 	<string name="bookmarks_empty_list_title">ही यादी रिकामी आहे</string>
 	<string name="bookmarks_empty_list_message">खूणपत्र जोडण्यासाठी, नकाशातील ठिकाणाला स्पर्श करा आणि नंतर तारा चिन्हाला स्पर्श करा</string>
@@ -686,6 +686,7 @@
 	<string name="elevation_profile_distance">अंतर.:</string>
 	<string name="elevation_profile_time">वेळ:</string>
 	<string name="isolines_toast_zooms_1_10">समोच्च रेषा पाहायला नकाशा विशाल (झूम) करा</string>
+	<string name="downloader_loading_ios">डाउनलोड करत आहे</string>
 	<string name="download_map_title">जगाचा नकाशा डाउनलोड करा</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">उपकरणाच्या अंतर्गत मेमरी किंवा SD-card वर फोल्डर तयार करण्यात आणि फायली हलविण्यात अक्षम</string>
@@ -722,6 +723,8 @@
 	<string name="aa_grant_permissions">परवानग्या द्या</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">कारला जोडलेले</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">गिर्यारोहण</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">पत्ता/ब्लॉक</string>

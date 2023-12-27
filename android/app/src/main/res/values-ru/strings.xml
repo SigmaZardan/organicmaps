@@ -195,7 +195,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Скопировано в буфер обмена: %1$s</string>
+	<string name="copied_to_clipboard">Скопировано в буфер обмена: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Готово</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -299,9 +299,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Обновить карту</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Сервисы Google Play</string>
+	<string name="google_play_services">Службы определения местоположения в Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Использовать Google Play Services для определения позиции</string>
+	<string name="pref_use_google_play">Быстрое определение приблизительного местоположения с помощью Bluetooth, WiFi или мобильной сети</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Загрузите все карты по пути следования</string>
 	<!-- Text for routing error dialog -->
@@ -629,7 +629,7 @@
 	<string name="terms_of_use">Условия использования</string>
 	<string name="button_layer_traffic">Пробки</string>
 	<string name="button_layer_subway">Метро</string>
-	<string name="layers_title">Слои карты</string>
+	<string name="layers_title">Стили и слои карты</string>
 	<string name="subway_data_unavailable">Карта метро недоступна</string>
 	<string name="bookmarks_empty_list_title">Список пустой</string>
 	<string name="bookmarks_empty_list_message">Чтобы добавить метку, нажмите на место на карте, а затем на иконку звёздочки</string>
@@ -731,6 +731,7 @@
 	<string name="elevation_profile_distance">Расст.:</string>
 	<string name="elevation_profile_time">В пути:</string>
 	<string name="isolines_toast_zooms_1_10">Увеличьте карту, чтобы увидеть изолинии</string>
+	<string name="downloader_loading_ios">Загрузка</string>
 	<string name="download_map_title">Скачать карту мира</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Не могу создать папку и переместить файлы на устройстве</string>
@@ -773,6 +774,8 @@
 	<string name="aa_grant_permissions">Разрешить</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Подключено к автомобилю</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Активный отдых</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Адрес/Блок</string>

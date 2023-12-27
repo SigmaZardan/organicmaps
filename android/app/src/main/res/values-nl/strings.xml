@@ -192,7 +192,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">E-mail</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Naar het klembord gekopieerd: %1$s</string>
+	<string name="copied_to_clipboard">Naar het klembord gekopieerd: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Klaar</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -294,9 +294,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Kaart bijwerken</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play-services</string>
+	<string name="google_play_services">Google Play-locatieservices</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Gebruik de diensten van Google Play om uw huidige locatie te bepalen</string>
+	<string name="pref_use_google_play">Bepaal snel je locatie bij benadering via Bluetooth, WiFi of een mobiel netwerk</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Download kaarten op de route</string>
 	<!-- Text for routing error dialog -->
@@ -615,7 +615,7 @@
 	<string name="terms_of_use">Gebruiksvoorwaarden</string>
 	<string name="button_layer_traffic">Verkeer</string>
 	<string name="button_layer_subway">Metro</string>
-	<string name="layers_title">Kaartweergave</string>
+	<string name="layers_title">Kaartstijlen en -lagen</string>
 	<string name="subway_data_unavailable">Metrokaart is niet beschikbaar</string>
 	<string name="bookmarks_empty_list_title">Deze lijst is leeg</string>
 	<string name="bookmarks_empty_list_message">Om een bladwijzer toe te voegen, tikt u op een plaats op de kaart en vervolgens op het sterpictogram</string>
@@ -717,6 +717,7 @@
 	<string name="elevation_profile_distance">Afst.:</string>
 	<string name="elevation_profile_time">Op weg</string>
 	<string name="isolines_toast_zooms_1_10">Zoom in om hoogtelijnen te bekijken</string>
+	<string name="downloader_loading_ios">Downloaden</string>
 	<string name="download_map_title">Download de wereldkaart</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Het lukt niet om een map aan te maken en bestanden naar het interne geheugen of een SD-kaart te verplaatsen</string>
@@ -757,6 +758,8 @@
 	<string name="aa_grant_permissions">Toestemming geven</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Verbonden met auto</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Wandelen</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adres/blok</string>

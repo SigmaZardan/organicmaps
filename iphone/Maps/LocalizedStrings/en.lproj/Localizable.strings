@@ -190,6 +190,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message when used successfully copied something */
+"copied_to_clipboard" = "Copied to clipboard: %@";
+
 /* place preview title */
 "info" = "Info";
 
@@ -976,7 +979,7 @@
 
 "button_layer_subway" = "Subway";
 
-"layers_title" = "Map layers";
+"layers_title" = "Map Styles and Layers";
 
 "subway_data_unavailable" = "Subway map is unavailable";
 
@@ -1231,6 +1234,9 @@
 
 /* Link to OSM wiki for Editor, Profile and About pages */
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+
+/* Outdoors/hiking map style (activity) name in the Styles and Layers dialog */
+"button_layer_outdoor" = "Outdoors";
 
 
 /********** Types **********/

@@ -179,7 +179,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Kopieret til udklipsholderen: %1$s</string>
+	<string name="copied_to_clipboard">Kopieret til udklipsholderen: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Færdig</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -277,9 +277,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Opdater kort</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play-tjenester</string>
+	<string name="google_play_services">Google Play Placeringstjenester</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Anvend Google Play Services til at få din aktuelle placering</string>
+	<string name="pref_use_google_play">Find hurtigt din omtrentlige position via Bluetooth, WiFi eller mobilnetværk</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Download kort på vejen</string>
 	<!-- Text for routing error dialog -->
@@ -588,7 +588,7 @@
 	<string name="terms_of_use">Vilkår for bruger</string>
 	<string name="button_layer_traffic">Trafik</string>
 	<string name="button_layer_subway">Undergrundsbane</string>
-	<string name="layers_title">Kortlag</string>
+	<string name="layers_title">Kortstile og -lag</string>
 	<string name="subway_data_unavailable">Kort over undergrundsbaner er ikke tilgængeligt</string>
 	<string name="bookmarks_empty_list_title">Listen er tom</string>
 	<string name="bookmarks_empty_list_message">For at tilføje et bogmærke, så tryk et sted på kort og så på stjerneikonet</string>
@@ -690,6 +690,7 @@
 	<string name="elevation_profile_distance">Afs.:</string>
 	<string name="elevation_profile_time">Tid:</string>
 	<string name="isolines_toast_zooms_1_10">Zoom ind for at udforske isolinjekort</string>
+	<string name="downloader_loading_ios">Downloader</string>
 	<string name="enable_keep_screen_on">Hold skærmen tændt</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Når den er aktiveret, vil skærmen altid være tændt, når kortet vises.</string>
@@ -715,6 +716,8 @@
 	<string name="aa_grant_permissions">Giv tilladelser</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Forbundet til bilen</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Vandring</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adresse/blok</string>

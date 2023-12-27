@@ -192,7 +192,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">In die Zwischenablage kopiert: %1$s</string>
+	<string name="copied_to_clipboard">In die Zwischenablage kopiert: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Fertig</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -294,9 +294,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Karte aktualisieren</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play-Dienste</string>
+	<string name="google_play_services">Google Play Standortdienste</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Nutzen Sie die Google Play-Dienste, um Ihren aktuellen Standort zu erhalten</string>
+	<string name="pref_use_google_play">Bestimme schnell deinen ungefähren Standort über Bluetooth, WiFi oder das mobile Netzwerk</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Karten entlang der Route herunterladen</string>
 	<!-- Text for routing error dialog -->
@@ -618,7 +618,7 @@
 	<string name="terms_of_use">Nutzungsbedingungen</string>
 	<string name="button_layer_traffic">Staus</string>
 	<string name="button_layer_subway">U-Bahn</string>
-	<string name="layers_title">Kartenebenen</string>
+	<string name="layers_title">Kartenstile und Ebenen</string>
 	<string name="subway_data_unavailable">Die U-Bahnkarte steht nicht zur Verfügung</string>
 	<string name="bookmarks_empty_list_title">Die Liste ist leer</string>
 	<string name="bookmarks_empty_list_message">Zum Hinzufügen eine Lesezeichens tippen Sie in der Karte auf den Ort und dann unten auf das Sternchen</string>
@@ -720,6 +720,7 @@
 	<string name="elevation_profile_distance">Entf.:</string>
 	<string name="elevation_profile_time">Dauer:</string>
 	<string name="isolines_toast_zooms_1_10">Karte vergrößern, um Höhenlinien sichtbar zu machen</string>
+	<string name="downloader_loading_ios">Herunterladen</string>
 	<string name="download_map_title">Herunterladen der Weltkarte</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Ordner kann nicht erstellt und Dateien können nicht auf den Gerätespeicher oder die SD-Karte verschoben werden</string>
@@ -760,6 +761,8 @@
 	<string name="aa_grant_permissions">Erlaubnis erteilen</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Mit dem Auto verbunden</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Wandern</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adresse/Block</string>

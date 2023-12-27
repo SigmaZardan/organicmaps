@@ -195,7 +195,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Copied to clipboard: %1$s</string>
+	<string name="copied_to_clipboard">Copied to clipboard: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Done</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -319,9 +319,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Update Map</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Google Play Services</string>
+	<string name="google_play_services">Google Play Location Services</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Use Google Play Services to determine your current location</string>
+	<string name="pref_use_google_play">Quickly determine your approximate location using Bluetooth, WiFi, or mobile network</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Download all of the maps along your route</string>
 	<!-- Text for routing error dialog -->
@@ -647,7 +647,7 @@
 	<string name="terms_of_use">Terms of use</string>
 	<string name="button_layer_traffic">Traffic</string>
 	<string name="button_layer_subway">Subway</string>
-	<string name="layers_title">Map layers</string>
+	<string name="layers_title">Map Styles and Layers</string>
 	<string name="subway_data_unavailable">Subway map is unavailable</string>
 	<string name="bookmarks_empty_list_title">This list is empty</string>
 	<string name="bookmarks_empty_list_message">To add a bookmark, tap a place on the map and then tap the star icon</string>
@@ -749,6 +749,7 @@
 	<string name="elevation_profile_distance">Dist.:</string>
 	<string name="elevation_profile_time">Time:</string>
 	<string name="isolines_toast_zooms_1_10">Zoom in to explore isolines</string>
+	<string name="downloader_loading_ios">Downloading</string>
 	<string name="download_map_title">Download the world map</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">Unable to create folder and move files on internal device\'s memory or sdcard</string>
@@ -795,6 +796,8 @@
 	<string name="aa_grant_permissions">Grant Permissions</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Connected to car</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Outdoors</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Address/Block</string>

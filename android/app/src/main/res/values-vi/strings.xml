@@ -179,7 +179,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Đã sao chép vào Bảng tạm: %1$s</string>
+	<string name="copied_to_clipboard">Đã sao chép vào Bảng tạm: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Xong</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -277,9 +277,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Cập nhật Bản đồ</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Dịch vụ Google Play</string>
+	<string name="google_play_services">Dịch vụ vị trí của Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Sử dụng Dịch vụ Google Play để có được vị trí hiện tại của bạn</string>
+	<string name="pref_use_google_play">Nhanh chóng xác định vị trí gần đúng của bạn bằng Bluetooth, WiFi hoặc mạng di động</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Tải xuống bản đồ theo tuyến đường</string>
 	<!-- Text for routing error dialog -->
@@ -586,7 +586,7 @@
 	<string name="terms_of_use">Điều khoảng sử dụng</string>
 	<string name="button_layer_traffic">Giao thông</string>
 	<string name="button_layer_subway">Xe điện ngầm</string>
-	<string name="layers_title">Các lớp bản đồ</string>
+	<string name="layers_title">Kiểu và lớp bản đồ</string>
 	<string name="subway_data_unavailable">Bản đồ tàu điện ngầm không khả dụng</string>
 	<string name="bookmarks_empty_list_title">Danh sách trống</string>
 	<string name="bookmarks_empty_list_message">Để thêm dấu trang, hãy nhấn vào một địa điểm trên bản đồ và sau đó nhấn vào biểu tượng dấu sao</string>
@@ -688,6 +688,7 @@
 	<string name="elevation_profile_distance">Khoảng cách</string>
 	<string name="elevation_profile_time">Giờ:</string>
 	<string name="isolines_toast_zooms_1_10">Phóng bản đồ để nhìn rõ đường đồng mức</string>
+	<string name="downloader_loading_ios">Tải xuống</string>
 	<string name="enable_keep_screen_on">Giữ màn hình luôn bật</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Khi được bật, màn hình sẽ luôn sáng khi hiển thị bản đồ.</string>
@@ -711,6 +712,8 @@
 	<string name="aa_grant_permissions">Cấp quyền</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Đã kết nối với ô tô</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Đi bộ đường dài</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Địa chỉ/Khối</string>

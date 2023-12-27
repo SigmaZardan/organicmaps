@@ -193,7 +193,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Электронная пошта</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Скапіравана ў буфер абмену: %1$s</string>
+	<string name="copied_to_clipboard">Скапіравана ў буфер абмену: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Гатова</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -295,9 +295,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Абнавіць мапу</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Сэрвісы Google Play</string>
+	<string name="google_play_services">Службы месцазнаходжання Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Выкарыстоўваць сэрвісы Google Play для вызначэння месцазнаходжання</string>
+	<string name="pref_use_google_play">Хуткае вызначэнне прыблізнага месцазнаходжання з дапамогай Bluetooth, WiFi або мабільнай сеткі</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Спампаваць усе мапы на вашым маршруце</string>
 	<!-- Text for routing error dialog -->
@@ -615,7 +615,7 @@
 	<string name="terms_of_use">Умовы выкарыстання</string>
 	<string name="button_layer_traffic">Рух</string>
 	<string name="button_layer_subway">Метро</string>
-	<string name="layers_title">Слаі карты</string>
+	<string name="layers_title">Стылі і пласты карты</string>
 	<string name="subway_data_unavailable">Мапа метро недаступная</string>
 	<string name="bookmarks_empty_list_title">Гэты спіс пусты</string>
 	<string name="bookmarks_empty_list_message">Каб дадаць закладку, націсніце на месца на мапе і потым на іконку з зорачкай</string>
@@ -717,6 +717,7 @@
 	<string name="elevation_profile_distance">Адл.:</string>
 	<string name="elevation_profile_time">Час:</string>
 	<string name="isolines_toast_zooms_1_10">Павялічце маштаб, каб пабачыць рэльеф</string>
+	<string name="downloader_loading_ios">Спампоўка</string>
 	<string name="download_map_title">Спампаваць мапу света</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="connection_failure">Памылка падлучэння</string>
@@ -753,6 +754,8 @@
 	<string name="aa_grant_permissions">Дазволiць</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Падключаны да аўтамабіля</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Актыўны адпачынак</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Адрас/Блок</string>

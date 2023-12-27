@@ -179,7 +179,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Email</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">Skopírované do schránky: %1$s</string>
+	<string name="copied_to_clipboard">Skopírované do schránky: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Hotovo</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -277,9 +277,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Aktualizovať mapu</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Služby Google Play</string>
+	<string name="google_play_services">Lokalizačné služby Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Pomocou Google Play služieb získajte svoju aktuálnu polohu</string>
+	<string name="pref_use_google_play">Rýchle určenie približnej polohy cez Bluetooth, WiFi alebo mobilnú sieť</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Stiahnite si mapy pozdĺž trasy</string>
 	<!-- Text for routing error dialog -->
@@ -585,7 +585,7 @@
 	<string name="terms_of_use">Podmienky používania</string>
 	<string name="button_layer_traffic">Vyťaženie</string>
 	<string name="button_layer_subway">Metro</string>
-	<string name="layers_title">Vrstvy mapy</string>
+	<string name="layers_title">Štýly a vrstvy mapy</string>
 	<string name="subway_data_unavailable">Mapa metra nie je dostupná</string>
 	<string name="bookmarks_empty_list_title">Tento zoznam je prázdny</string>
 	<string name="bookmarks_empty_list_message">Pre pridanie záložky kliknite na miesto na mape a potom na ikonu hviezdy</string>
@@ -687,6 +687,7 @@
 	<string name="elevation_profile_distance">Vzdial.:</string>
 	<string name="elevation_profile_time">Čas:</string>
 	<string name="isolines_toast_zooms_1_10">Priblížením preskúmajte izočiary</string>
+	<string name="downloader_loading_ios">Sťahovanie</string>
 	<string name="enable_keep_screen_on">Ponechajte obrazovku zapnutú</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">Ak je táto funkcia zapnutá, obrazovka bude pri zobrazovaní mapy vždy zapnutá.</string>
@@ -710,6 +711,8 @@
 	<string name="aa_grant_permissions">Udelenie oprávnení</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Pripojenie k vozidlu</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Turistika</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adresa/blok</string>

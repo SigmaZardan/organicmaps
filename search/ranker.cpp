@@ -123,6 +123,10 @@ NameScores GetNameScores(FeatureType & ft, Geocoder::Params const & params,
     auto const updateScore = [&](string_view name)
     {
       TokensVector vec(name);
+      // Name consists of stop words only.
+      if (vec.Size() == 0)
+        return;
+
       UpdateNameScores(vec, lang, slice, bestScores);
       UpdateNameScores(vec, lang, sliceNoCategories, bestScores);
 
@@ -373,7 +377,7 @@ public:
 
       if (info.m_classifType.poi != PoiType::Eat &&
           info.m_classifType.poi != PoiType::Hotel &&
-          info.m_classifType.poi != PoiType::Shop)
+          info.m_classifType.poi != PoiType::ShopOrAmenity)
       {
         info.m_hasName = false;
       }

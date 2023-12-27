@@ -168,7 +168,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">ایمیل</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">کپی در کلیپ‌برد: %1$s</string>
+	<string name="copied_to_clipboard">کپی در کلیپ‌برد: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">انجام شد</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -270,9 +270,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">بروزرسانی نقشه</string>
 	<!-- Preference title -->
-	<string name="google_play_services">خدمات Google Play</string>
+	<string name="google_play_services">خدمات مکان Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">استفاده از Google Play Services برای تعیین موقعیت کنونی شما</string>
+	<string name="pref_use_google_play">به سرعت مکان تقریبی خود را با استفاده از بلوتوث، WiFi یا شبکه تلفن همراه تعیین کنید</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">دانلود تمامی نقشه‌ها در طول مسیر‌تان</string>
 	<!-- Text for routing error dialog -->
@@ -586,7 +586,7 @@
 	<string name="terms_of_use">شرایط استفاده</string>
 	<string name="button_layer_traffic">ترافیک</string>
 	<string name="button_layer_subway">مترو</string>
-	<string name="layers_title">لایه‌های نقشه</string>
+	<string name="layers_title">سبک ها و لایه های نقشه</string>
 	<string name="subway_data_unavailable">نقشه مترو موجود نیست</string>
 	<string name="bookmarks_empty_list_title">این لیست خالی است</string>
 	<string name="bookmarks_empty_list_message">برای افزودن یک نشانه، روی یک مکان روی نقشه ضربه بزنید و سپس روی نماد ستاره ضربه بزنید</string>
@@ -688,6 +688,7 @@
 	<string name="elevation_profile_distance">مسافت</string>
 	<string name="elevation_profile_time">زمان:</string>
 	<string name="isolines_toast_zooms_1_10">برای بررسی خطوط تراز زوم کنید</string>
+	<string name="downloader_loading_ios">در حال دانلود</string>
 	<string name="enable_keep_screen_on">صفحه نمایش را روشن بگذارید</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">وقتی فعال باشد، هنگام نمایش نقشه، صفحه همیشه روشن خواهد بود.</string>
@@ -715,6 +716,8 @@
 	<string name="aa_grant_permissions">اعطای مجوزها</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">متصل به ماشین</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">پیاده روی</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">آدرس/بلاک</string>

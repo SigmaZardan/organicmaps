@@ -181,7 +181,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">อีเมล</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด: %1$s</string>
+	<string name="copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">เสร็จแล้ว</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -279,9 +279,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">อัปเดตแผนที่</string>
 	<!-- Preference title -->
-	<string name="google_play_services">บริการของ Google Play</string>
+	<string name="google_play_services">บริการตำแหน่งของ Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">ใช้บริการ Google Play เพื่อรับตำแหน่งปัจจุบันของคุณ</string>
+	<string name="pref_use_google_play">ระบุตำแหน่งโดยประมาณของคุณอย่างรวดเร็วโดยใช้บลูทูธ WiFi หรือเครือข่ายมือถือ</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">ดาวน์โหลดแผนที่ตามเส้นทาง</string>
 	<!-- Text for routing error dialog -->
@@ -587,7 +587,7 @@
 	<string name="terms_of_use">ข้อกำหนดในการใช้งาน</string>
 	<string name="button_layer_traffic">การจราจร</string>
 	<string name="button_layer_subway">รถไฟใต้ดิน</string>
-	<string name="layers_title">ชั้นแผนที่</string>
+	<string name="layers_title">รูปแบบและเลเยอร์ของแผนที่</string>
 	<string name="subway_data_unavailable">แผนที่รถไฟใต้ดินไม่พร้อมใช้งาน</string>
 	<string name="bookmarks_empty_list_title">รายการนี้ว่างเปล่า</string>
 	<string name="bookmarks_empty_list_message">เพื่อเพิ่มบุ๊กมาร์ก โปรดแตะที่สถานที่บนแผนที่ แล้วจากนั้นแตะที่ไอคอนรูปดาว</string>
@@ -689,6 +689,7 @@
 	<string name="elevation_profile_distance">ระยะทาง</string>
 	<string name="elevation_profile_time">เวลา:</string>
 	<string name="isolines_toast_zooms_1_10">ขยายเข้าเพื่อสำรวจเส้นชั้นความสูง</string>
+	<string name="downloader_loading_ios">การดาวน์โหลด</string>
 	<string name="enable_keep_screen_on">เปิดหน้าจอไว้</string>
 	<!-- Description in preferences -->
 	<string name="enable_keep_screen_on_description">เมื่อเปิดใช้งาน หน้าจอจะเปิดอยู่เสมอเมื่อแสดงแผนที่</string>
@@ -712,6 +713,8 @@
 	<string name="aa_grant_permissions">ให้สิทธิ์</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">เชื่อมต่อกับรถยนต์</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">การเดินป่า</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">ที่อยู่/บล็อค</string>

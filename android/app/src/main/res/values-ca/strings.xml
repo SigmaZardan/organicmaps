@@ -184,7 +184,7 @@
 	<!-- Share by email button text, also used in editor and About. -->
 	<string name="email">Correu-e</string>
 	<!-- Text for message when used successfully copied something -->
-	<string name="copied_to_clipboard">S\'ha copiat al porta-retalls: %1$s</string>
+	<string name="copied_to_clipboard">S\'ha copiat al porta-retalls: %s</string>
 	<!-- Used for bookmark editing -->
 	<string name="done">Fet</string>
 	<!-- Data version in «About» screen, %@ is replaced by a local, human readable date. -->
@@ -288,9 +288,9 @@
 	<!-- Item in context menu. -->
 	<string name="downloader_update_map">Actualitza el mapa</string>
 	<!-- Preference title -->
-	<string name="google_play_services">Serveis de Google Play</string>
+	<string name="google_play_services">Serveis d\'ubicació de Google Play</string>
 	<!-- Preference text -->
-	<string name="pref_use_google_play">Usa els serveis de Google Play per a obtenir la ubicació actual</string>
+	<string name="pref_use_google_play">Determineu ràpidament la vostra ubicació aproximada mitjançant Bluetooth, WiFi o xarxa mòbil</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_maps_along">Baixeu tots els mapes de la ruta</string>
 	<!-- Text for routing error dialog -->
@@ -611,7 +611,7 @@
 	<string name="terms_of_use">Considicions del servei</string>
 	<string name="button_layer_traffic">Trànsit</string>
 	<string name="button_layer_subway">Metro</string>
-	<string name="layers_title">Capes del mapa</string>
+	<string name="layers_title">Estils i capes de mapa</string>
 	<string name="subway_data_unavailable">El mapa del metro no és disponible</string>
 	<string name="bookmarks_empty_list_title">Aquesta llista és buida</string>
 	<string name="bookmarks_empty_list_message">Per a afegir un marcador, toqueu un lloc en el mapa i després toqueu la icona d\'estrella</string>
@@ -713,6 +713,7 @@
 	<string name="elevation_profile_distance">Dist.:</string>
 	<string name="elevation_profile_time">Temps:</string>
 	<string name="isolines_toast_zooms_1_10">Aproplieu el mapa per a explorar les isolínies</string>
+	<string name="downloader_loading_ios">Està baixant</string>
 	<string name="download_map_title">Baixa el mapa mundial</string>
 	<!-- Used in DownloadResources startup screen -->
 	<string name="disk_error">No s\'ha pogut crear la carpeta ni moure els fitxers a la memòria interna de l\'aparell o targeta SD</string>
@@ -753,6 +754,8 @@
 	<string name="aa_grant_permissions">Concedeix permisos</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Connectat al cotxe</string>
+	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
+	<string name="button_layer_outdoor">Senderisme</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adreça/Bloc</string>
