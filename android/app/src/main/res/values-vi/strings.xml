@@ -94,7 +94,7 @@
 	<string name="maps_storage_downloaded">Bản đồ</string>
 	<!-- Question dialog for transferring maps from one storage to another -->
 	<string name="move_maps">Di chuyển bản đồ?</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Việc này có thể mất vài phút.\nVui lòng đợi…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Đơn vị đo</string>
@@ -478,9 +478,13 @@
 	<string name="current_location_unknown_message">Chưa biết địa điểm hiện tại. Có thể bạn đang ở trong một tòa nhà hoặc đường hầm.</string>
 	<string name="current_location_unknown_continue_button">Tiếp tục</string>
 	<string name="current_location_unknown_stop_button">Dừng</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/giờ</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">dặm</string>
 	<!-- A unit of measure -->
 	<string name="ft">ft</string>
@@ -1038,6 +1042,8 @@
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.cycleway.tunnel">Đường hầm</string>
 	<string name="type.highway.footway">Đường</string>
+	<string name="type.highway.footway.sidewalk">Đường đi bộ</string>
+	<string name="type.highway.footway.crossing">Vạch qua đường</string>
 	<string name="type.highway.footway.alpine_hiking">Đường</string>
 	<string name="type.highway.footway.area">Đường</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1047,7 +1053,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Đường</string>
 	<string name="type.highway.footway.hiking">Đường</string>
 	<string name="type.highway.footway.mountain_hiking">Đường</string>
-	<string name="type.highway.footway.permissive">Đường</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Đường hầm</string>
 	<string name="type.highway.ford">Đập tràn</string>
@@ -1316,7 +1321,6 @@
 	<string name="type.natural.scrub">Bụi rậm</string>
 	<string name="type.natural.spring">Suối</string>
 	<string name="type.natural.strait">Eo biển</string>
-	<string name="type.natural.tree">Cây</string>
 	<string name="type.natural.tree_row">Hàng cây</string>
 	<string name="type.natural.vineyard">Vườn nho</string>
 	<string name="type.natural.volcano">Núi lửa</string>
@@ -1373,7 +1377,6 @@
 	<string name="type.power.plant.hydro">Nhà máy thủy điện</string>
 	<string name="type.power.plant.solar">Nhà máy điện mặt trời</string>
 	<string name="type.power.plant.wind">Nhà máy điện gió</string>
-	<string name="type.power.pole">Trụ Điện</string>
 	<string name="type.power.substation">Trạm biến áp</string>
 	<string name="type.power.tower">Trụ Điện</string>
 	<string name="type.railway.funicular">Đường sắt leo núi</string>

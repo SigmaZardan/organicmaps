@@ -768,15 +768,19 @@
 
 "location_services_disabled_2" = "2. Tocca su Localizzazione";
 
-/* iOS Dialog for the case when the location permission is not granted */
+/* iOS Dialog for the case when the location permission is not granted; you might find the exact wording for your language here: https://support.apple.com/en-us/102647 (replace 'en-us' in URL with your language/region) */
 "location_services_disabled_3" = "3. Seleziona Mentre usi l'app";
 
+/* abbreviation for meters */
 "m" = "m";
 
+/* abbreviation for kilometers */
 "km" = "km";
 
+/* abbreviation for kilometers per hour */
 "kilometers_per_hour" = "km/h";
 
+/* abbreviation for mile(s) */
 "mi" = "mi";
 
 /* A unit of measure */
@@ -2010,6 +2014,10 @@
 
 "type.highway.footway" = "Sentiero";
 
+"type.highway.footway.sidewalk" = "Marciapiede";
+
+"type.highway.footway.crossing" = "Attraversamento pedonale";
+
 "type.highway.footway.alpine_hiking" = "Sentiero";
 
 "type.highway.footway.area" = "Sentiero";
@@ -2026,8 +2034,6 @@
 "type.highway.footway.hiking" = "Sentiero";
 
 "type.highway.footway.mountain_hiking" = "Sentiero";
-
-"type.highway.footway.permissive" = "Sentiero";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.footway.tunnel" = "Tunnel";
@@ -2670,8 +2676,6 @@
 
 "type.natural.strait" = "Stretto";
 
-"type.natural.tree" = "Albero";
-
 "type.natural.tree_row" = "Fila di alberi";
 
 "type.natural.vineyard" = "Vigneto";
@@ -2799,8 +2803,6 @@
 "type.power.plant.solar" = "Centrale solare";
 
 "type.power.plant.wind" = "Centrale eolica";
-
-"type.power.pole" = "Palo elettrico";
 
 "type.power.station" = "Power Station";
 

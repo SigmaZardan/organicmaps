@@ -106,7 +106,7 @@
 	<string name="move_maps">Mapak mugitu?</string>
 	<!-- Error moving map files from one storage to another -->
 	<string name="move_maps_error">Ezin izan dira mapak mugitu</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Honek minutu batzuk iraun ditzake.\n Itxaron mesedez…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Neurketa unitateak</string>
@@ -502,9 +502,13 @@
 	<string name="current_location_unknown_message">Uneko kokapena ezezaguna da. Agian eraikin batean edo tunel batean zaudelako.</string>
 	<string name="current_location_unknown_continue_button">Jarraitu</string>
 	<string name="current_location_unknown_stop_button">Gelditu</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/h</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mi</string>
 	<!-- A unit of measure -->
 	<string name="ft">oin</string>
@@ -1146,6 +1150,8 @@
 	<string name="type.highway.cycleway.tunnel">Tunel</string>
 	<string name="type.highway.elevator">Igogailua</string>
 	<string name="type.highway.footway">Bidea</string>
+	<string name="type.highway.footway.sidewalk">Espaloia</string>
+	<string name="type.highway.footway.crossing">Oinezkoen pasabidea</string>
 	<string name="type.highway.footway.alpine_hiking">Bidea</string>
 	<string name="type.highway.footway.area">Bidea</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1155,7 +1161,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Bidea</string>
 	<string name="type.highway.footway.hiking">Bidea</string>
 	<string name="type.highway.footway.mountain_hiking">Bidea</string>
-	<string name="type.highway.footway.permissive">Bidea</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Tunel</string>
 	<string name="type.highway.ford">Ford (lekukoa)</string>
@@ -1427,7 +1432,6 @@
 	<string name="type.natural.scrub">Sastrakak</string>
 	<string name="type.natural.spring">Udaberria</string>
 	<string name="type.natural.strait">Estua</string>
-	<string name="type.natural.tree">Zuhaitza</string>
 	<string name="type.natural.tree_row">Zuhaitz ilara</string>
 	<string name="type.natural.vineyard">Mahasti</string>
 	<string name="type.natural.volcano">Sumendi</string>
@@ -1486,7 +1490,6 @@
 	<string name="type.power.plant.hydro">Zentral hidroelektrikoa</string>
 	<string name="type.power.plant.solar">Eguzki-zentrala</string>
 	<string name="type.power.plant.wind">Zentral eolikoa</string>
-	<string name="type.power.pole">Zutabe elektrikoa</string>
 	<string name="type.power.substation">Azpiestazioa</string>
 	<string name="type.power.tower">Zutabe elektrikoa</string>
 	<string name="type.public_transport">Garraio publikoa</string>

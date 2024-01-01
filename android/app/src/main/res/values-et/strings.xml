@@ -98,7 +98,7 @@
 	<string name="move_maps">Teisaldada kaardid?</string>
 	<!-- Error moving map files from one storage to another -->
 	<string name="move_maps_error">Kaardipaanide teisaldamine ebaõnnestus</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">See võib võtta mitu minutit.\nPalun oota…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Mõõtühikud</string>
@@ -492,9 +492,13 @@
 	<string name="current_location_unknown_message">Hetkeasukoht on teadmata. Võib-olla oled hoones sees või tunnelis.</string>
 	<string name="current_location_unknown_continue_button">Jätka</string>
 	<string name="current_location_unknown_stop_button">Lõpeta</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/h</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mi</string>
 	<!-- A unit of measure -->
 	<string name="ft">jalga</string>
@@ -1142,6 +1146,8 @@
 	<string name="type.highway.cycleway.tunnel">Jalgratta tunnel</string>
 	<string name="type.highway.elevator">Lift</string>
 	<string name="type.highway.footway">Jalgrada</string>
+	<string name="type.highway.footway.sidewalk">Kõnnitee</string>
+	<string name="type.highway.footway.crossing">Jalakäijate ülekäigurada</string>
 	<string name="type.highway.footway.alpine_hiking">Alpi matkarada</string>
 	<string name="type.highway.footway.area">Jalakäijate ala</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1151,7 +1157,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Nõudlik mägimatkarada</string>
 	<string name="type.highway.footway.hiking">Rada</string>
 	<string name="type.highway.footway.mountain_hiking">Mägirada</string>
-	<string name="type.highway.footway.permissive">Jalgrada</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Jalakäijate tunnel</string>
 	<string name="type.highway.ford">Koolmekoht</string>
@@ -1476,7 +1481,6 @@
 	<string name="type.natural.scrub">Võsa</string>
 	<string name="type.natural.spring">Allikas</string>
 	<string name="type.natural.strait">Väin</string>
-	<string name="type.natural.tree">Puu</string>
 	<string name="type.natural.tree_row">Puude rida</string>
 	<string name="type.natural.vineyard">Viinamarjaistandus</string>
 	<string name="type.natural.volcano">Vulkaan</string>
@@ -1541,7 +1545,6 @@
 	<string name="type.power.plant.hydro">Hüdroelektrijaam</string>
 	<string name="type.power.plant.solar">Päikeseelektrijaam</string>
 	<string name="type.power.plant.wind">Tuuleelektrijaam</string>
-	<string name="type.power.pole">Elektripost</string>
 	<string name="type.power.station">Elektrijaam</string>
 	<string name="type.power.substation">Alajaam</string>
 	<string name="type.power.tower">Elektripost</string>

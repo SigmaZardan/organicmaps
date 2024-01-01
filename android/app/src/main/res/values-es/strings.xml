@@ -106,7 +106,7 @@
 	<string name="move_maps">¿Mover mapas?</string>
 	<!-- Error moving map files from one storage to another -->
 	<string name="move_maps_error">Error al mover los archivos de mapas</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Esto podría tardar varios minutos.\nPor favor, espere…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Unidades de medida</string>
@@ -504,9 +504,13 @@
 	<string name="current_location_unknown_message">La ubicación actual es desconocida. Quizá esté en un edificio o en un túnel.</string>
 	<string name="current_location_unknown_continue_button">Continuar</string>
 	<string name="current_location_unknown_stop_button">Detener</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/h</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mi</string>
 	<!-- A unit of measure -->
 	<string name="ft">pie</string>
@@ -1159,6 +1163,8 @@
 	<string name="type.highway.cycleway.tunnel">Túnel</string>
 	<string name="type.highway.elevator">Ascensor</string>
 	<string name="type.highway.footway">Camino</string>
+	<string name="type.highway.footway.sidewalk">Acera</string>
+	<string name="type.highway.footway.crossing">Paso de peatones</string>
 	<string name="type.highway.footway.alpine_hiking">Senderismo alpino</string>
 	<string name="type.highway.footway.area">Zona peatonal</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1168,7 +1174,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Camino</string>
 	<string name="type.highway.footway.hiking">Sendero</string>
 	<string name="type.highway.footway.mountain_hiking">Camino</string>
-	<string name="type.highway.footway.permissive">Camino</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Túnel peatonal</string>
 	<string name="type.highway.ford">Vado</string>
@@ -1484,7 +1489,6 @@
 	<string name="type.natural.scrub">Matorrales</string>
 	<string name="type.natural.spring">Manantial</string>
 	<string name="type.natural.strait">Estrecho</string>
-	<string name="type.natural.tree">Árbol</string>
 	<string name="type.natural.tree_row">Fila de árboles</string>
 	<string name="type.natural.vineyard">Viña</string>
 	<string name="type.natural.volcano">Volcán</string>
@@ -1548,7 +1552,6 @@
 	<string name="type.power.plant.hydro">Planta de energía hidroeléctrica</string>
 	<string name="type.power.plant.solar">Planta de energía solar</string>
 	<string name="type.power.plant.wind">Planta eólica</string>
-	<string name="type.power.pole">Poste eléctrico</string>
 	<string name="type.power.station">Estación eléctrica</string>
 	<string name="type.power.substation">Subestación eléctrica</string>
 	<string name="type.power.tower">Poste eléctrico</string>

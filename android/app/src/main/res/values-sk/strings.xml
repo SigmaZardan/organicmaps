@@ -94,7 +94,7 @@
 	<string name="maps_storage_downloaded">Mapy</string>
 	<!-- Question dialog for transferring maps from one storage to another -->
 	<string name="move_maps">Presunúť mapy?</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Táto akcia môže trvať niekoľko minút.\nProsím čakajte…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Meracie jednotky</string>
@@ -476,9 +476,13 @@
 	<string name="current_location_unknown_message">Súčasná pozícia je neznáma. Možno sa nachádzate v budove alebo v tuneli.</string>
 	<string name="current_location_unknown_continue_button">Pokračovať</string>
 	<string name="current_location_unknown_stop_button">Zastaviť</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/h</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mi</string>
 	<!-- A unit of measure -->
 	<string name="ft">stopa</string>
@@ -1036,6 +1040,8 @@
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.cycleway.tunnel">Tunel</string>
 	<string name="type.highway.footway">Cesta</string>
+	<string name="type.highway.footway.sidewalk">Chodník</string>
+	<string name="type.highway.footway.crossing">Prechod pre chodcov</string>
 	<string name="type.highway.footway.alpine_hiking">Cesta</string>
 	<string name="type.highway.footway.area">Cesta</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1045,7 +1051,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Cesta</string>
 	<string name="type.highway.footway.hiking">Cesta</string>
 	<string name="type.highway.footway.mountain_hiking">Cesta</string>
-	<string name="type.highway.footway.permissive">Cesta</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Tunel</string>
 	<string name="type.highway.ford">Brod</string>
@@ -1312,7 +1317,6 @@
 	<string name="type.natural.scrub">Krovie</string>
 	<string name="type.natural.spring">Prameň</string>
 	<string name="type.natural.strait">Prieliv</string>
-	<string name="type.natural.tree">Strom</string>
 	<string name="type.natural.tree_row">Stromový rad</string>
 	<string name="type.natural.vineyard">Vinohrad</string>
 	<string name="type.natural.volcano">Vulkán</string>
@@ -1369,7 +1373,6 @@
 	<string name="type.power.plant.hydro">Vodná elektráreň</string>
 	<string name="type.power.plant.solar">Solárna elektráreň</string>
 	<string name="type.power.plant.wind">Veterná elektráreň</string>
-	<string name="type.power.pole">Stĺp elektrického vedenia</string>
 	<string name="type.power.substation">Rozvodňa</string>
 	<string name="type.power.tower">Stĺp elektrického vedenia</string>
 	<string name="type.railway.funicular">Lanovka</string>

@@ -109,7 +109,7 @@
 	<string name="move_maps">Переместить карты?</string>
 	<!-- Error moving map files from one storage to another -->
 	<string name="move_maps_error">Ошибка перемещения файлов карт</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Это может занять несколько минут.\nПожалуйста, подождите…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Единицы измерения</string>
@@ -507,9 +507,13 @@
 	<string name="current_location_unknown_message">Местоположение не найдено. Возможно, вы находитесь в помещении или в туннеле.</string>
 	<string name="current_location_unknown_continue_button">Продолжить</string>
 	<string name="current_location_unknown_stop_button">Стоп</string>
+	<!-- abbreviation for meters -->
 	<string name="m">м</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">км</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">км/ч</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">ми</string>
 	<!-- A unit of measure -->
 	<string name="ft">фут</string>
@@ -1165,9 +1169,11 @@
 	<string name="type.highway.cycleway.bridge">Мост</string>
 	<string name="type.highway.cycleway.permissive">Велодорожка</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
-	<string name="type.highway.cycleway.tunnel">Тоннель</string>
+	<string name="type.highway.cycleway.tunnel">Велотоннель</string>
 	<string name="type.highway.elevator">Лифт</string>
 	<string name="type.highway.footway">Пешеходная дорожка</string>
+	<string name="type.highway.footway.sidewalk">Тротуар</string>
+	<string name="type.highway.footway.crossing">Пешеходный переход</string>
 	<string name="type.highway.footway.alpine_hiking">Тропа</string>
 	<string name="type.highway.footway.area">Пешеходная зона</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1177,7 +1183,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Тропа</string>
 	<string name="type.highway.footway.hiking">Тропа</string>
 	<string name="type.highway.footway.mountain_hiking">Тропа</string>
-	<string name="type.highway.footway.permissive">Пешеходная дорожка</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Пешеходный тоннель</string>
 	<string name="type.highway.ford">Брод</string>
@@ -1503,7 +1508,6 @@
 	<string name="type.natural.scrub">Заросли</string>
 	<string name="type.natural.spring">Родник</string>
 	<string name="type.natural.strait">Пролив</string>
-	<string name="type.natural.tree">Дерево</string>
 	<string name="type.natural.tree_row">Ряд деревьев</string>
 	<string name="type.natural.vineyard">Виноградник</string>
 	<string name="type.natural.volcano">Вулкан</string>
@@ -1568,7 +1572,6 @@
 	<string name="type.power.plant.hydro">Гидроэлектростанция</string>
 	<string name="type.power.plant.solar">Солнечная электростанция</string>
 	<string name="type.power.plant.wind">Ветряная электростанция</string>
-	<string name="type.power.pole">Опора ЛЭП</string>
 	<string name="type.power.station">Электростанция</string>
 	<string name="type.power.substation">Подстанция</string>
 	<string name="type.power.tower">Опора ЛЭП</string>

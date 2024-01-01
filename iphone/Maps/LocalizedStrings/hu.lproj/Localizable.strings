@@ -768,15 +768,19 @@
 
 "location_services_disabled_2" = "2. Érintse meg a Helyzet gombot";
 
-/* iOS Dialog for the case when the location permission is not granted */
+/* iOS Dialog for the case when the location permission is not granted; you might find the exact wording for your language here: https://support.apple.com/en-us/102647 (replace 'en-us' in URL with your language/region) */
 "location_services_disabled_3" = "3. Kiválaszt az alkalmazás használata alatt";
 
+/* abbreviation for meters */
 "m" = "m";
 
+/* abbreviation for kilometers */
 "km" = "km";
 
+/* abbreviation for kilometers per hour */
 "kilometers_per_hour" = "km/h";
 
+/* abbreviation for mile(s) */
 "mi" = "mf";
 
 /* A unit of measure */
@@ -2010,6 +2014,10 @@
 
 "type.highway.footway" = "Ösvény";
 
+"type.highway.footway.sidewalk" = "Járda";
+
+"type.highway.footway.crossing" = "Gyalogátkelőhely";
+
 "type.highway.footway.alpine_hiking" = "Ösvény";
 
 "type.highway.footway.area" = "Ösvény";
@@ -2026,8 +2034,6 @@
 "type.highway.footway.hiking" = "Ösvény";
 
 "type.highway.footway.mountain_hiking" = "Ösvény";
-
-"type.highway.footway.permissive" = "Ösvény";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.footway.tunnel" = "Alagút";
@@ -2670,8 +2676,6 @@
 
 "type.natural.strait" = "Szoros";
 
-"type.natural.tree" = "Fa";
-
 "type.natural.tree_row" = "Fa sor";
 
 "type.natural.vineyard" = "Szőlőskert";
@@ -2799,8 +2803,6 @@
 "type.power.plant.solar" = "Naperőmű";
 
 "type.power.plant.wind" = "Szélerőmű";
-
-"type.power.pole" = "Villanyoszlop";
 
 "type.power.station" = "Power Station";
 

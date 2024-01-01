@@ -94,7 +94,7 @@
 	<string name="maps_storage_downloaded">지도</string>
 	<!-- Question dialog for transferring maps from one storage to another -->
 	<string name="move_maps">지도를 이동합니까?</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">이 작업은 수 분 소요될 수 있습니다.\n잠시 기다리세요…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">측정 단위</string>
@@ -478,9 +478,13 @@
 	<string name="current_location_unknown_message">현재 위치를 알 수 없습니다. 건물 안이나 터널 안에서는 검색할 수 없습니다</string>
 	<string name="current_location_unknown_continue_button">계속</string>
 	<string name="current_location_unknown_stop_button">중지</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/시</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mi</string>
 	<!-- A unit of measure -->
 	<string name="ft">풋</string>
@@ -1040,6 +1044,8 @@
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.cycleway.tunnel">터널</string>
 	<string name="type.highway.footway">길</string>
+	<string name="type.highway.footway.sidewalk">보도</string>
+	<string name="type.highway.footway.crossing">횡단보도</string>
 	<string name="type.highway.footway.alpine_hiking">길</string>
 	<string name="type.highway.footway.area">길</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1049,7 +1055,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">길</string>
 	<string name="type.highway.footway.hiking">길</string>
 	<string name="type.highway.footway.mountain_hiking">길</string>
-	<string name="type.highway.footway.permissive">길</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">터널</string>
 	<string name="type.highway.ford">여울</string>
@@ -1320,7 +1325,6 @@
 	<string name="type.natural.scrub">관목지</string>
 	<string name="type.natural.spring">샘</string>
 	<string name="type.natural.strait">해협</string>
-	<string name="type.natural.tree">나무</string>
 	<string name="type.natural.tree_row">나무 행</string>
 	<string name="type.natural.vineyard">포도원</string>
 	<string name="type.natural.volcano">화산</string>
@@ -1377,7 +1381,6 @@
 	<string name="type.power.plant.hydro">수력 발전소</string>
 	<string name="type.power.plant.solar">태양광 발전소</string>
 	<string name="type.power.plant.wind">풍력 발전소</string>
-	<string name="type.power.pole">전봇대</string>
 	<string name="type.power.substation">변전소</string>
 	<string name="type.power.tower">전봇대</string>
 	<string name="type.railway.funicular">케이블카</string>

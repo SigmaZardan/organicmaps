@@ -108,7 +108,7 @@
 	<string name="move_maps">Haritalar taşınsın mı?</string>
 	<!-- Error moving map files from one storage to another -->
 	<string name="move_maps_error">Harita dosyalarını taşıma hatası</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Bu işlem birkaç dakika sürebilir.\nLütfen bekleyin…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Ölçü birimleri</string>
@@ -504,9 +504,13 @@
 	<string name="current_location_unknown_message">Geçerli konum bilinmiyor. Muhtemelen bir bina veya tünelin içindesiniz.</string>
 	<string name="current_location_unknown_continue_button">Devam</string>
 	<string name="current_location_unknown_stop_button">Dur</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/s</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mil</string>
 	<!-- A unit of measure -->
 	<string name="ft">fit</string>
@@ -1153,6 +1157,8 @@
 	<string name="type.highway.cycleway.tunnel">Tünel</string>
 	<string name="type.highway.elevator">Asansör</string>
 	<string name="type.highway.footway">Yaya Yolu</string>
+	<string name="type.highway.footway.sidewalk">Kaldırım</string>
+	<string name="type.highway.footway.crossing">Yaya Geçidi</string>
 	<string name="type.highway.footway.alpine_hiking">Yol</string>
 	<string name="type.highway.footway.area">Yaya Alanı</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1162,7 +1168,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Yol</string>
 	<string name="type.highway.footway.hiking">Yol</string>
 	<string name="type.highway.footway.mountain_hiking">Yol</string>
-	<string name="type.highway.footway.permissive">Yaya Yolu</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Tünel</string>
 	<string name="type.highway.ford">Geçit</string>
@@ -1484,7 +1489,6 @@
 	<string name="type.natural.scrub">Çalılık</string>
 	<string name="type.natural.spring">Pınar</string>
 	<string name="type.natural.strait">Boğaz</string>
-	<string name="type.natural.tree">Ağaç</string>
 	<string name="type.natural.tree_row">Ağaç Sırası</string>
 	<string name="type.natural.vineyard">Bağ</string>
 	<string name="type.natural.volcano">Volkan</string>
@@ -1547,7 +1551,6 @@
 	<string name="type.power.plant.hydro">Hidroelektrik Santrali</string>
 	<string name="type.power.plant.solar">Güneş Enerjisi Santrali</string>
 	<string name="type.power.plant.wind">Rüzgar Santrali</string>
-	<string name="type.power.pole">Elektrik Direği</string>
 	<string name="type.power.station">Elektrik Santrali</string>
 	<string name="type.power.substation">Trafo</string>
 	<string name="type.power.tower">Elektrik Kulesi</string>

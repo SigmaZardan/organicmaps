@@ -106,7 +106,7 @@
 	<string name="move_maps">Karten verschieben?</string>
 	<!-- Error moving map files from one storage to another -->
 	<string name="move_maps_error">Fehler beim Verschieben der Karten</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Dies kann einige Minuten in Anspruch nehmen.\nBitte warten…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Maßeinheiten</string>
@@ -500,9 +500,13 @@
 	<string name="current_location_unknown_message">Standort nicht gefunden. Möglicherweise befinden Sie sich in einem Gebäude oder einem Tunnel.</string>
 	<string name="current_location_unknown_continue_button">Fortsetzen</string>
 	<string name="current_location_unknown_stop_button">Anhalten</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/h</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mi</string>
 	<!-- A unit of measure -->
 	<string name="ft">ft</string>
@@ -1136,6 +1140,8 @@
 	<string name="type.highway.cycleway.tunnel">Tunnel</string>
 	<string name="type.highway.elevator">Aufzug</string>
 	<string name="type.highway.footway">Fußweg</string>
+	<string name="type.highway.footway.sidewalk">Bürgersteig</string>
+	<string name="type.highway.footway.crossing">Fußgängerübergang</string>
 	<string name="type.highway.footway.alpine_hiking">Alpinwanderweg</string>
 	<string name="type.highway.footway.area">Fußweg</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1145,7 +1151,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Schwieriger Alpinwanderweg</string>
 	<string name="type.highway.footway.hiking">Wanderweg</string>
 	<string name="type.highway.footway.mountain_hiking">Bergwanderweg</string>
-	<string name="type.highway.footway.permissive">Fußweg</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Fußgängertunnel</string>
 	<string name="type.highway.ford">Furt</string>
@@ -1462,7 +1467,6 @@
 	<string name="type.natural.scrub">Dickicht</string>
 	<string name="type.natural.spring">Quelle</string>
 	<string name="type.natural.strait">Meerenge</string>
-	<string name="type.natural.tree">Baum</string>
 	<string name="type.natural.tree_row">Baumreihe</string>
 	<string name="type.natural.vineyard">Weinberg</string>
 	<string name="type.natural.volcano">Vulkan</string>
@@ -1526,7 +1530,6 @@
 	<string name="type.power.plant.hydro">Wasserkraftwerk</string>
 	<string name="type.power.plant.solar">Solarkraftwerk</string>
 	<string name="type.power.plant.wind">Windkraftanlage</string>
-	<string name="type.power.pole">Nieder-/Mittelspannungsmast</string>
 	<string name="type.power.station">Umspannwerk</string>
 	<string name="type.power.substation">Umspannwerk</string>
 	<string name="type.power.tower">Hochspannungsmast</string>

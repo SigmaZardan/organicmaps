@@ -94,7 +94,7 @@
 	<string name="maps_storage_downloaded">地图</string>
 	<!-- Question dialog for transferring maps from one storage to another -->
 	<string name="move_maps">移动地图？</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">这可能需要几分钟的时间。\n请稍候…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">测量单位</string>
@@ -489,9 +489,13 @@
 	<string name="current_location_unknown_message">当前位置未知，可能您在建筑内或隧道内。</string>
 	<string name="current_location_unknown_continue_button">继续</string>
 	<string name="current_location_unknown_stop_button">停止</string>
+	<!-- abbreviation for meters -->
 	<string name="m">米</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">公里</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">公里每小时</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">英里</string>
 	<!-- A unit of measure -->
 	<string name="ft">英尺</string>
@@ -1105,6 +1109,8 @@
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.cycleway.tunnel">隧道</string>
 	<string name="type.highway.footway">步行道路</string>
+	<string name="type.highway.footway.sidewalk">人行道</string>
+	<string name="type.highway.footway.crossing">行人过街天桥</string>
 	<string name="type.highway.footway.alpine_hiking">步行道路</string>
 	<string name="type.highway.footway.area">步行道路</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1114,7 +1120,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">步行道路</string>
 	<string name="type.highway.footway.hiking">步行道路</string>
 	<string name="type.highway.footway.mountain_hiking">步行道路</string>
-	<string name="type.highway.footway.permissive">步行道路</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">隧道</string>
 	<string name="type.highway.ford">浅滩</string>
@@ -1426,7 +1431,6 @@
 	<string name="type.natural.scrub">灌木丛</string>
 	<string name="type.natural.spring">泉水</string>
 	<string name="type.natural.strait">海峡</string>
-	<string name="type.natural.tree">树</string>
 	<string name="type.natural.tree_row">树列</string>
 	<string name="type.natural.vineyard">葡萄园</string>
 	<string name="type.natural.volcano">火山</string>
@@ -1488,7 +1492,6 @@
 	<string name="type.power.plant.hydro">水力发电厂</string>
 	<string name="type.power.plant.solar">太阳能发电厂</string>
 	<string name="type.power.plant.wind">风力发电厂</string>
-	<string name="type.power.pole">电线杆</string>
 	<string name="type.power.substation">变电站</string>
 	<string name="type.power.tower">高压电塔</string>
 	<string name="type.public_transport">公共交通要素</string>

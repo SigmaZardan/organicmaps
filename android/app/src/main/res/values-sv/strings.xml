@@ -94,7 +94,7 @@
 	<string name="maps_storage_downloaded">Kartor</string>
 	<!-- Question dialog for transferring maps from one storage to another -->
 	<string name="move_maps">Flytta kartor?</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Detta kan ta flera minuter.\nVänligen vänta…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Längdenheter</string>
@@ -476,9 +476,13 @@
 	<string name="current_location_unknown_message">Nuvarande plats okänd. Du kanske är i en byggnad eller tunnel.</string>
 	<string name="current_location_unknown_continue_button">Fortsätt</string>
 	<string name="current_location_unknown_stop_button">Stopp</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/h</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mile</string>
 	<!-- A unit of measure -->
 	<string name="ft">fot</string>
@@ -1036,6 +1040,8 @@
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.cycleway.tunnel">Tunnel</string>
 	<string name="type.highway.footway">Gångväg</string>
+	<string name="type.highway.footway.sidewalk">Trottoar</string>
+	<string name="type.highway.footway.crossing">Övergångsställe för fotgängare</string>
 	<string name="type.highway.footway.alpine_hiking">Gångväg</string>
 	<string name="type.highway.footway.area">Gångväg</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1045,7 +1051,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Gångväg</string>
 	<string name="type.highway.footway.hiking">Gångväg</string>
 	<string name="type.highway.footway.mountain_hiking">Gångväg</string>
-	<string name="type.highway.footway.permissive">Gångväg</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Tunnel</string>
 	<string name="type.highway.ford">Vadställe</string>
@@ -1312,7 +1317,6 @@
 	<string name="type.natural.scrub">Ruggen</string>
 	<string name="type.natural.spring">Vattenkälla</string>
 	<string name="type.natural.strait">Sund</string>
-	<string name="type.natural.tree">Träd</string>
 	<string name="type.natural.tree_row">Trädrad</string>
 	<string name="type.natural.vineyard">Vingård</string>
 	<string name="type.natural.volcano">Vulkan</string>
@@ -1369,7 +1373,6 @@
 	<string name="type.power.plant.hydro">Vattenkraftverk</string>
 	<string name="type.power.plant.solar">Solkraftverk</string>
 	<string name="type.power.plant.wind">Vindkraftverk</string>
-	<string name="type.power.pole">Elstolpe</string>
 	<string name="type.power.substation">Ställverk</string>
 	<string name="type.power.tower">Elstolpe</string>
 	<string name="type.railway.funicular">Linbana</string>

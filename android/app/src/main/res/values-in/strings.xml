@@ -96,7 +96,7 @@
 	<string name="maps_storage_downloaded">Peta</string>
 	<!-- Question dialog for transferring maps from one storage to another -->
 	<string name="move_maps">Pindahkan peta?</string>
-	<!-- Ask to wait user several minutes (some long process in modal dialog). -->
+	<!-- Ask user to wait several minutes (some long process in modal dialog). -->
 	<string name="wait_several_minutes">Ini akan memakan waktu beberapa menit.\nMohon tunggu…</string>
 	<!-- Measurement units title in settings activity -->
 	<string name="measurement_units">Unit Pengukuran</string>
@@ -480,9 +480,13 @@
 	<string name="current_location_unknown_message">Lokasi saat ini tidak diketahui. Anda mungkin berada dalam bangunan atau terowongan.</string>
 	<string name="current_location_unknown_continue_button">Lanjutkan</string>
 	<string name="current_location_unknown_stop_button">Berhenti</string>
+	<!-- abbreviation for meters -->
 	<string name="m">m</string>
+	<!-- abbreviation for kilometers -->
 	<string name="km">km</string>
+	<!-- abbreviation for kilometers per hour -->
 	<string name="kilometers_per_hour">km/j</string>
+	<!-- abbreviation for mile(s) -->
 	<string name="mi">mil</string>
 	<!-- A unit of measure -->
 	<string name="ft">kaki</string>
@@ -1037,6 +1041,8 @@
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.cycleway.tunnel">Terowongan</string>
 	<string name="type.highway.footway">Jalur</string>
+	<string name="type.highway.footway.sidewalk">Trotoar</string>
+	<string name="type.highway.footway.crossing">Penyeberangan Pejalan Kaki</string>
 	<string name="type.highway.footway.alpine_hiking">Jalur</string>
 	<string name="type.highway.footway.area">Jalur</string>
 	<!-- These translations are used for all type.highway.*.bridge. -->
@@ -1046,7 +1052,6 @@
 	<string name="type.highway.footway.difficult_alpine_hiking">Jalur</string>
 	<string name="type.highway.footway.hiking">Jalur</string>
 	<string name="type.highway.footway.mountain_hiking">Jalur</string>
-	<string name="type.highway.footway.permissive">Jalur</string>
 	<!-- These translations are used for all type.highway.*.tunnel. -->
 	<string name="type.highway.footway.tunnel">Terowongan</string>
 	<string name="type.highway.ford">Menyeberang</string>
@@ -1314,7 +1319,6 @@
 	<string name="type.natural.scrub">Semak</string>
 	<string name="type.natural.spring">Mata air</string>
 	<string name="type.natural.strait">Selat</string>
-	<string name="type.natural.tree">Pohon</string>
 	<string name="type.natural.tree_row">Baris pohon</string>
 	<string name="type.natural.vineyard">Kebun anggur</string>
 	<string name="type.natural.volcano">Gunung berapi</string>
@@ -1371,7 +1375,6 @@
 	<string name="type.power.plant.hydro">Pembangkit listrik tenaga air</string>
 	<string name="type.power.plant.solar">Pembangkit listrik tenaga surya</string>
 	<string name="type.power.plant.wind">Pembangkit listrik tenaga angin</string>
-	<string name="type.power.pole">Menara listrik</string>
 	<string name="type.power.substation">Stasiun bawah tanah</string>
 	<string name="type.power.tower">Menara listrik</string>
 	<string name="type.railway.funicular">Kereta gantung</string>

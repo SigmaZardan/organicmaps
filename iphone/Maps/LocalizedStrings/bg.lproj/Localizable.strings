@@ -768,15 +768,19 @@
 
 "location_services_disabled_2" = "2. Натискане на Местоположение";
 
-/* iOS Dialog for the case when the location permission is not granted */
+/* iOS Dialog for the case when the location permission is not granted; you might find the exact wording for your language here: https://support.apple.com/en-us/102647 (replace 'en-us' in URL with your language/region) */
 "location_services_disabled_3" = "3. Избиране на Докато приложението се използва";
 
+/* abbreviation for meters */
 "m" = "м";
 
+/* abbreviation for kilometers */
 "km" = "км";
 
+/* abbreviation for kilometers per hour */
 "kilometers_per_hour" = "km/h";
 
+/* abbreviation for mile(s) */
 "mi" = "ми";
 
 /* A unit of measure */
@@ -2010,6 +2014,10 @@
 
 "type.highway.footway" = "Foot Path";
 
+"type.highway.footway.sidewalk" = "Тротоар";
+
+"type.highway.footway.crossing" = "Пешеходно пресичане";
+
 "type.highway.footway.alpine_hiking" = "Path";
 
 "type.highway.footway.area" = "Foot Path";
@@ -2026,8 +2034,6 @@
 "type.highway.footway.hiking" = "Path";
 
 "type.highway.footway.mountain_hiking" = "Path";
-
-"type.highway.footway.permissive" = "Foot Path";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.footway.tunnel" = "Тунел";
@@ -2670,8 +2676,6 @@
 
 "type.natural.strait" = "Проток";
 
-"type.natural.tree" = "Дърво";
-
 "type.natural.tree_row" = "Ред дървета";
 
 "type.natural.vineyard" = "Лозе";
@@ -2799,8 +2803,6 @@
 "type.power.plant.solar" = "Слънчева електроцентрала";
 
 "type.power.plant.wind" = "Вятърна електроцентрала";
-
-"type.power.pole" = "Power Pole";
 
 "type.power.station" = "Power Station";
 
