@@ -82,7 +82,7 @@
 	<string name="core_my_places">สถานที่ของฉัน</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">ชื่อ</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">ที่อยู่</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">รายการ</string>
@@ -640,6 +640,8 @@
 	<string name="yes_available">ใช่</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">ไม่ใช่</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">ความจุ: %s</string>
 	<string name="trip_finished">คุณมาถึงแล้ว!</string>
 	<string name="ok">โอเค</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -719,6 +721,8 @@
 	<string name="aa_connected_to_car_notification_title">เชื่อมต่อกับรถยนต์</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">การเดินป่า</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">เว็บเบราว์เซอร์ไม่พร้อมใช้งาน</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">ที่อยู่/บล็อค</string>
@@ -891,7 +895,8 @@
 	<string name="type.boundary.protected_area.5">พื้นที่คุ้มครอง</string>
 	<string name="type.boundary.protected_area.6">พื้นที่คุ้มครอง</string>
 	<string name="type.building">อาคาร</string>
-	<string name="type.building.address">อาคาร</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">ที่อยู่</string>
 	<string name="type.building.has_parts">อาคาร</string>
 	<string name="type.building_part">อาคาร</string>
 	<string name="type.building.garage">อาคารจอดรถ</string>
@@ -1843,6 +1848,10 @@
 	<string name="type.wheelchair.limited">พื้นที่จำกัดการใช้รถเข็นสำหรับผู้ป่วย/ผู้สูงอายุ</string>
 	<string name="type.wheelchair.no">พื้นที่ไม่สามารถใช้รถเข็นสำหรับผู้ป่วย/ผู้สูงอายุ</string>
 	<string name="type.wheelchair.yes">พื้นใช้รถเข็นสำหรับผู้ป่วย/ผู้สูงอายุได้</string>
+	<string name="type.piste_type.snow_park">สโนว์พาร์ค</string>
+	<string name="type.piste_type.hike">เส้นทางเดินป่าหิมะ</string>
+	<string name="type.piste_type.connection">การเชื่อมต่อทางสกี</string>
+	<string name="type.piste_type.skitour">เส้นทางสกีทัวร์</string>
 	<string name="type.amenity.events_venue">สถานที่จัดงาน</string>
 	<string name="type.shop.auction">ประมูล</string>
 	<string name="type.shop.collector">ของสะสม</string>

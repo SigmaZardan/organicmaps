@@ -80,7 +80,7 @@
 	<string name="core_my_places">Mis lugares</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Nombre</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Dirección</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Lista</string>
@@ -675,6 +675,8 @@
 	<string name="yes_available">Sí</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">No</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Capacidad: %s</string>
 	<string name="trip_finished">¡Ya ha llegado!</string>
 	<string name="ok">Ok</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -771,6 +773,8 @@
 	<string name="aa_connected_to_car_notification_title">Conectado al coche</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Senderismo</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">El navegador web no está disponible</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Dirección/Bloque</string>
@@ -1000,7 +1004,8 @@
 	<string name="type.boundary.protected_area.5">Área protegida</string>
 	<string name="type.boundary.protected_area.6">Área protegida</string>
 	<string name="type.building">Edificio</string>
-	<string name="type.building.address">Edificio</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Dirección</string>
 	<string name="type.building.has_parts">Edificio</string>
 	<string name="type.building_part">Edificio</string>
 	<string name="type.building.garage">Garaje</string>
@@ -2048,16 +2053,26 @@
 	<string name="type.aerialway.platter">Telesilla de disco</string>
 	<string name="type.aerialway.rope_tow">Telesilla de cuerda</string>
 	<string name="type.aerialway.t.bar">Telesilla barra en T</string>
-	<string name="type.piste_type">Tipo de pista</string>
 	<string name="type.piste_type.downhill">Pista de esquí alpino</string>
+	<string name="type.piste_type.downhill.area">Pista de esquí alpino</string>
 	<string name="type.piste_type.downhill.advanced">Pista de esquí alpino</string>
+	<string name="type.piste_type.downhill.advanced.area">Pista de esquí alpino</string>
 	<string name="type.piste_type.downhill.easy">Pista de esquí alpino</string>
+	<string name="type.piste_type.downhill.easy.area">Pista de esquí alpino</string>
 	<string name="type.piste_type.downhill.expert">Pista de esquí alpino</string>
+	<string name="type.piste_type.downhill.expert.area">Pista de esquí alpino</string>
 	<string name="type.piste_type.downhill.freeride">Pista de esquí alpino</string>
 	<string name="type.piste_type.downhill.intermediate">Pista de esquí alpino</string>
+	<string name="type.piste_type.downhill.intermediate.area">Pista de esquí alpino</string>
 	<string name="type.piste_type.downhill.novice">Pista de esquí alpino</string>
+	<string name="type.piste_type.downhill.novice.area">Pista de esquí alpino</string>
 	<string name="type.piste_type.nordic">Pista de esquí nórdico</string>
 	<string name="type.piste_type.sled">Pista para trineos</string>
+	<string name="type.piste_type.sled.area">Pista para trineos</string>
+	<string name="type.piste_type.snow_park">Parque de nieve</string>
+	<string name="type.piste_type.hike">Senderismo en la nieve</string>
+	<string name="type.piste_type.connection">Conexión de pistas</string>
+	<string name="type.piste_type.skitour">Sendero Skitour</string>
 	<string name="type.amenity.events_venue">Lugar para eventos</string>
 	<string name="type.shop.auction">Subasta</string>
 	<string name="type.shop.collector">Coleccionables</string>

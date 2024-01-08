@@ -80,7 +80,7 @@
 	<string name="core_my_places">Nire tokiak</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Izena</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Helbidea</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Zerrenda</string>
@@ -673,6 +673,8 @@
 	<string name="yes_available">Bai</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Ez</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Edukiera: %s</string>
 	<string name="trip_finished">Iritsi zara!</string>
 	<string name="ok">Ados</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -767,6 +769,8 @@
 	<string name="aa_connected_to_car_notification_title">Kotxearekin konektatuta</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Mendi ibilaldiak</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Web arakatzailea ez dago erabilgarri</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Helbidea/Blokea</string>
@@ -991,7 +995,8 @@
 	<string name="type.boundary.protected_area.5">Babestutako Eremua</string>
 	<string name="type.boundary.protected_area.6">Babestutako Eremua</string>
 	<string name="type.building">Eraikin</string>
-	<string name="type.building.address">Eraikin</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Helbidea</string>
 	<string name="type.building.has_parts">Eraikin</string>
 	<string name="type.building_part">Eraikin</string>
 	<string name="type.building.garage">Garajea</string>
@@ -1951,6 +1956,10 @@
 	<string name="type.wheelchair.limited">Ezinduentzako partzialki hornitua</string>
 	<string name="type.wheelchair.no">Ezinduentzako ekipatuta ez dago</string>
 	<string name="type.wheelchair.yes">Ezinduentzako hornitua</string>
+	<string name="type.piste_type.snow_park">Elur parkea</string>
+	<string name="type.piste_type.hike">Elurretako Mendi Ibilbidea</string>
+	<string name="type.piste_type.connection">Pista Konexioa</string>
+	<string name="type.piste_type.skitour">Skitour Ibilbidea</string>
 	<string name="type.amenity.events_venue">Ekitaldien Lekua</string>
 	<string name="type.shop.auction">Enkantea</string>
 	<string name="type.shop.collector">Bildumagarriak</string>

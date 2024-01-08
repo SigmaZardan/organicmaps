@@ -83,7 +83,7 @@
 	<string name="core_my_places">Мои Метки</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Название</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Адрес</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Список</string>
@@ -682,6 +682,8 @@
 	<string name="yes_available">Есть</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Нет</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Вместимость: %s</string>
 	<string name="trip_finished">Вы прибыли!</string>
 	<string name="ok">Ок</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -780,6 +782,8 @@
 	<string name="aa_connected_to_car_notification_title">Подключено к автомобилю</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Активный отдых</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Веб-браузер недоступен</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Адрес/Блок</string>
@@ -1009,7 +1013,8 @@
 	<string name="type.boundary.protected_area.5">Заповедная зона</string>
 	<string name="type.boundary.protected_area.6">Заповедная зона</string>
 	<string name="type.building">Здание</string>
-	<string name="type.building.address">Здание</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Адрес</string>
 	<string name="type.building.has_parts">Здание</string>
 	<string name="type.building_part">Здание</string>
 	<string name="type.building.garage">Гараж</string>
@@ -2092,16 +2097,26 @@
 	<string name="type.aerialway.platter">Бугельный подъёмник</string>
 	<string name="type.aerialway.rope_tow">Бугельный подъёмник</string>
 	<string name="type.aerialway.t.bar">Бугельный подъёмник</string>
-	<string name="type.piste_type">Тип трассы</string>
 	<string name="type.piste_type.downhill">Горнолыжная трасса</string>
+	<string name="type.piste_type.downhill.area">Горнолыжная трасса</string>
 	<string name="type.piste_type.downhill.advanced">Продвинутая горнолыжная трасса</string>
+	<string name="type.piste_type.downhill.advanced.area">Продвинутая горнолыжная трасса</string>
 	<string name="type.piste_type.downhill.easy">Лёгкая горнолыжная трасса</string>
+	<string name="type.piste_type.downhill.easy.area">Лёгкая горнолыжная трасса</string>
 	<string name="type.piste_type.downhill.expert">Горнолыжная трасса для экспертов</string>
+	<string name="type.piste_type.downhill.expert.area">Горнолыжная трасса для экспертов</string>
 	<string name="type.piste_type.downhill.freeride">Горнолыжная трасса для фрирайда</string>
 	<string name="type.piste_type.downhill.intermediate">Горнолыжная трасса средней сложности</string>
+	<string name="type.piste_type.downhill.intermediate.area">Горнолыжная трасса средней сложности</string>
 	<string name="type.piste_type.downhill.novice">Горнолыжная трасса для новичков</string>
+	<string name="type.piste_type.downhill.novice.area">Горнолыжная трасса для новичков</string>
 	<string name="type.piste_type.nordic">Лыжня</string>
 	<string name="type.piste_type.sled">Трасса для саней</string>
+	<string name="type.piste_type.sled.area">Трасса для саней</string>
+	<string name="type.piste_type.snow_park">Снежный парк</string>
+	<string name="type.piste_type.hike">Зимняя тропа</string>
+	<string name="type.piste_type.connection">Соединение между трассами</string>
+	<string name="type.piste_type.skitour">Маршрут для скитура</string>
 	<string name="type.amenity.events_venue">Место проведения мероприятий</string>
 	<string name="type.shop.auction">Аукцион</string>
 	<string name="type.shop.collector">Коллекции</string>

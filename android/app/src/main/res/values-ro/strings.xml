@@ -80,7 +80,7 @@
 	<string name="core_my_places">Locurile mele</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Denumire</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Adresă</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Listă</string>
@@ -656,6 +656,8 @@
 	<string name="yes_available">Da</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Nu</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Capacitate: %s</string>
 	<string name="trip_finished">Ai ajuns!</string>
 	<string name="ok">Bine</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -744,6 +746,8 @@
 	<string name="aa_connected_to_car_notification_title">Conectat la mașină</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Drumeție</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Browserul web nu este disponibil</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adresă/Bloc</string>
@@ -906,7 +910,8 @@
 	<string name="type.boundary.protected_area.5">Zonă protejată</string>
 	<string name="type.boundary.protected_area.6">Zonă protejată</string>
 	<string name="type.building">Clădire</string>
-	<string name="type.building.address">Clădire</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Adresă</string>
 	<string name="type.building.has_parts">Clădire</string>
 	<string name="type.building_part">Clădire</string>
 	<string name="type.building.garage">Garaj</string>
@@ -1851,6 +1856,10 @@
 	<string name="type.wheelchair.limited">Parțial utilat pentru invalizi</string>
 	<string name="type.wheelchair.no">Nu este utilat pentru invalizi</string>
 	<string name="type.wheelchair.yes">Utilat pentru invalizi</string>
+	<string name="type.piste_type.snow_park">Snow Park</string>
+	<string name="type.piste_type.hike">Zăpadă Hiking Trail</string>
+	<string name="type.piste_type.connection">Conexiune Piste</string>
+	<string name="type.piste_type.skitour">Traseul Skitour</string>
 	<string name="type.amenity.events_venue">Locul de desfășurare a evenimentelor</string>
 	<string name="type.shop.auction">Licitație</string>
 	<string name="type.shop.collector">Colecții</string>

@@ -80,8 +80,8 @@
 /* Default bookmark list name */
 "core_my_places" = "Os meus locais";
 
-/* Editor title above street and house number */
-"address" = "Endereço";
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
+"address" = "Morada";
 
 /* Settings button in system menu */
 "settings" = "Configurações";
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "Não";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "Capacidade: %@";
+
 "trip_finished" = "Chegou ao destino!";
 
 "keyboard_availability_alert" = "O teclado não está disponível ao coduzir";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "Edifício";
 
-"type.building.address" = "Edifício";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "Morada";
 
 "type.building.has_parts" = "Edifício";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "Telesqui de barra em T";
 
-"type.piste_type" = "Tipo de pista";
-
 "type.piste_type.downhill" = "Esqui alpino";
+
+"type.piste_type.downhill.area" = "Esqui alpino";
 
 "type.piste_type.downhill.advanced" = "Esqui alpino avançado";
 
+"type.piste_type.downhill.advanced.area" = "Esqui alpino avançado";
+
 "type.piste_type.downhill.easy" = "Esqui alpino fácil";
 
+"type.piste_type.downhill.easy.area" = "Esqui alpino fácil";
+
 "type.piste_type.downhill.expert" = "Esqui alpino avançado";
+
+"type.piste_type.downhill.expert.area" = "Esqui alpino avançado";
 
 "type.piste_type.downhill.freeride" = "Esqui alpino livre";
 
 "type.piste_type.downhill.intermediate" = "Esqui alpino intermédio";
 
+"type.piste_type.downhill.intermediate.area" = "Esqui alpino intermédio";
+
 "type.piste_type.downhill.novice" = "Esqui alpino iniciante";
+
+"type.piste_type.downhill.novice.area" = "Esqui alpino iniciante";
 
 "type.piste_type.nordic" = "Pista tipo nórdico";
 
 "type.piste_type.sled" = "Pista para trenós";
+
+"type.piste_type.sled.area" = "Pista para trenós";
+
+"type.piste_type.snow_park" = "Parque de neve";
+
+"type.piste_type.hike" = "Trilho para caminhadas na neve";
+
+"type.piste_type.connection" = "Ligação às pistas";
+
+"type.piste_type.skitour" = "Trilho de esqui de passeio";
 
 "type.amenity.events_venue" = "Local dos eventos";
 

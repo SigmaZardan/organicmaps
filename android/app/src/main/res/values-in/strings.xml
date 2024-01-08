@@ -82,7 +82,7 @@
 	<string name="core_my_places">Tempat-tempat Saya</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Nama</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Alamat</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Daftar</string>
@@ -641,6 +641,8 @@
 	<string name="yes_available">Ya</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Tidak</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Kapasitas: %s</string>
 	<string name="trip_finished">Anda telah tiba!</string>
 	<string name="ok">Oke</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -722,6 +724,8 @@
 	<string name="aa_connected_to_car_notification_title">Terhubung ke mobil</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Pendakian</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Browser web tidak tersedia</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Alamat/Blokir</string>
@@ -887,7 +891,8 @@
 	<string name="type.boundary.protected_area.5">Kawasan Lindung</string>
 	<string name="type.boundary.protected_area.6">Kawasan Lindung</string>
 	<string name="type.building">Gedung</string>
-	<string name="type.building.address">Gedung</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Alamat</string>
 	<string name="type.building.has_parts">Gedung</string>
 	<string name="type.building_part">Gedung</string>
 	<string name="type.building.garage">Garasi</string>
@@ -1832,6 +1837,10 @@
 	<string name="type.wheelchair.limited">Akses kursi roda terbatas</string>
 	<string name="type.wheelchair.no">Tidak ada akses kursi roda</string>
 	<string name="type.wheelchair.yes">Akses penuh kursi roda</string>
+	<string name="type.piste_type.snow_park">Snow Park</string>
+	<string name="type.piste_type.hike">Jalur Pendakian Salju</string>
+	<string name="type.piste_type.connection">Koneksi Piste</string>
+	<string name="type.piste_type.skitour">Jalur Skitour</string>
 	<string name="type.amenity.events_venue">Tempat acara</string>
 	<string name="type.shop.auction">Lelang</string>
 	<string name="type.shop.collector">Barang koleksi</string>

@@ -81,7 +81,7 @@
 	<string name="core_my_places">Οι τοποθεσίες μου</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Όνομα</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Διεύθυνση</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Λίστα</string>
@@ -628,6 +628,8 @@
 	<string name="yes_available">Ναι</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Όχι</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Χωρητικότητα: %s</string>
 	<string name="trip_finished">Έχετε φτάσει!</string>
 	<string name="ok">Καλώς</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -709,6 +711,8 @@
 	<string name="aa_connected_to_car_notification_title">Συνδεδεμένο με το αυτοκίνητο</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Πεζοπορία</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Το πρόγραμμα περιήγησης στο Web δεν είναι διαθέσιμο</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Διεύθυνση/Μπλοκ</string>
@@ -885,7 +889,8 @@
 	<string name="type.boundary.protected_area.5">Προστατευόμενη Περιοχή</string>
 	<string name="type.boundary.protected_area.6">Προστατευόμενη Περιοχή</string>
 	<string name="type.building">Κτίριο</string>
-	<string name="type.building.address">Κτίριο</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Διεύθυνση</string>
 	<string name="type.building.has_parts">Κτίριο</string>
 	<string name="type.building_part">Κτίριο</string>
 	<string name="type.building.garage">Γκαράζ</string>
@@ -1840,6 +1845,10 @@
 	<string name="type.wheelchair.limited">Μερικώς εξοπλισμένο για άτομα με ειδικές ανάγκες</string>
 	<string name="type.wheelchair.no">Δεν υπάρχει πρόβλεψη για άτομα με ειδικές ανάγκες</string>
 	<string name="type.wheelchair.yes">Εξοπλισμένο για άτομα με ειδικές ανάγκες</string>
+	<string name="type.piste_type.snow_park">Snow Park</string>
+	<string name="type.piste_type.hike">Μονοπάτι πεζοπορίας χιονιού</string>
+	<string name="type.piste_type.connection">Σύνδεση πίστας</string>
+	<string name="type.piste_type.skitour">Μονοπάτι Skitour</string>
 	<string name="type.amenity.events_venue">Κέντρο εκδηλώσεων</string>
 	<string name="type.shop.auction">Δημοπρασία</string>
 	<string name="type.shop.collector">Συλλεκτικά αντικείμενα</string>

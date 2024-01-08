@@ -80,7 +80,7 @@
 /* Default bookmark list name */
 "core_my_places" = "Locurile mele";
 
-/* Editor title above street and house number */
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Adresă";
 
 /* Settings button in system menu */
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "Nu";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "Capacitate: %@";
+
 "trip_finished" = "Ai ajuns!";
 
 "keyboard_availability_alert" = "Tastatura nu poate fi folosită cât timp conduci";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "Clădire";
 
-"type.building.address" = "Clădire";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "Adresă";
 
 "type.building.has_parts" = "Clădire";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "T-bar Lift";
 
-"type.piste_type" = "Piste Type";
-
 "type.piste_type.downhill" = "Downhill Ski Run";
+
+"type.piste_type.downhill.area" = "Downhill Ski Run";
 
 "type.piste_type.downhill.advanced" = "Downhill Ski Run";
 
+"type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.easy" = "Downhill Ski Run";
 
+"type.piste_type.downhill.easy.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.expert" = "Downhill Ski Run";
+
+"type.piste_type.downhill.expert.area" = "Downhill Ski Run";
 
 "type.piste_type.downhill.freeride" = "Downhill Ski Run";
 
 "type.piste_type.downhill.intermediate" = "Downhill Ski Run";
 
+"type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.novice" = "Downhill Ski Run";
+
+"type.piste_type.downhill.novice.area" = "Downhill Ski Run";
 
 "type.piste_type.nordic" = "Nordic Ski Trail";
 
 "type.piste_type.sled" = "Sledding Piste";
+
+"type.piste_type.sled.area" = "Sledding Piste";
+
+"type.piste_type.snow_park" = "Snow Park";
+
+"type.piste_type.hike" = "Zăpadă Hiking Trail";
+
+"type.piste_type.connection" = "Conexiune Piste";
+
+"type.piste_type.skitour" = "Traseul Skitour";
 
 "type.amenity.events_venue" = "Locul de desfășurare a evenimentelor";
 

@@ -80,7 +80,7 @@
 	<string name="core_my_places">マイロケーション</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">名称</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">住所</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">一覧</string>
@@ -636,6 +636,8 @@
 	<string name="yes_available">はい</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">いいえ</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">定員：%s</string>
 	<string name="trip_finished">到着しました!</string>
 	<string name="ok">OK</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -717,6 +719,8 @@
 	<string name="aa_connected_to_car_notification_title">自動車に接続されている</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">ハイキング</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">ウェブブラウザが利用できない</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">アドレス/ブロック</string>
@@ -920,7 +924,8 @@
 	<string name="type.boundary.protected_area.5">保護区域</string>
 	<string name="type.boundary.protected_area.6">保護区域</string>
 	<string name="type.building">建物</string>
-	<string name="type.building.address">建物</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">住所</string>
 	<string name="type.building.has_parts">建物</string>
 	<string name="type.building_part">建物</string>
 	<string name="type.building.garage">車庫</string>
@@ -1974,6 +1979,10 @@
 	<string name="type.wheelchair.limited">車椅子でのアクセス制限</string>
 	<string name="type.wheelchair.no">車椅子でのアクセスなし</string>
 	<string name="type.wheelchair.yes">車椅子でのアクセスあり</string>
+	<string name="type.piste_type.snow_park">スノーパーク</string>
+	<string name="type.piste_type.hike">スノーハイキングコース</string>
+	<string name="type.piste_type.connection">ピステ・コネクション</string>
+	<string name="type.piste_type.skitour">スキーツアートレイル</string>
 	<string name="type.amenity.events_venue">イベント会場</string>
 	<string name="type.shop.auction">オークション</string>
 	<string name="type.shop.collector">コレクタブル</string>

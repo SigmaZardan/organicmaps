@@ -78,7 +78,7 @@
 	<string name="core_my_places">Meus locais</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Nome</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Endereço</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Lista</string>
@@ -739,6 +739,8 @@
 	<string name="aa_grant_permissions">Conceder permissão</string>
 	<!-- Text that will be displayed in the notification title when the app is connected to Android Auto. -->
 	<string name="aa_connected_to_car_notification_title">Conectado ao carro</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">O navegador da Web não está disponível</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Endereço/Bloco</string>
@@ -761,7 +763,6 @@
 	<string name="type.aeroway.taxiway">Pista de rolagem</string>
 	<string name="type.aeroway.terminal">Aerogare de passageiros</string>
 	<string name="type.amenity">Amenidades</string>
-	<string name="type.amenity.arts_centre">Centros de arte</string>
 	<string name="type.amenity.atm">Caixa eletrônico</string>
 	<string name="type.amenity.bank">Banco</string>
 	<string name="type.amenity.bar">Drinqueria</string>
@@ -940,7 +941,8 @@
 	<string name="type.boundary.protected_area.5">Área protegida</string>
 	<string name="type.boundary.protected_area.6">Área protegida</string>
 	<string name="type.building">Edifício</string>
-	<string name="type.building.address">Edifício</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Endereço</string>
 	<string name="type.building.has_parts">Edifício</string>
 	<string name="type.building_part">Edifício</string>
 	<string name="type.building.garage">Garagem</string>
@@ -1846,16 +1848,25 @@
 	<string name="type.aerialway.platter">Telesqui de disco</string>
 	<string name="type.aerialway.rope_tow">Telesqui de corda</string>
 	<string name="type.aerialway.t.bar">Telesqui de barra em T</string>
-	<string name="type.piste_type">Tipo de pista</string>
 	<string name="type.piste_type.downhill">Esqui alpino</string>
+	<string name="type.piste_type.downhill.area">Esqui alpino</string>
 	<string name="type.piste_type.downhill.advanced">Esqui alpino avançado</string>
+	<string name="type.piste_type.downhill.advanced.area">Esqui alpino avançado</string>
 	<string name="type.piste_type.downhill.easy">Esqui alpino fácil</string>
+	<string name="type.piste_type.downhill.easy.area">Esqui alpino fácil</string>
 	<string name="type.piste_type.downhill.expert">Esqui alpino avançado</string>
+	<string name="type.piste_type.downhill.expert.area">Esqui alpino avançado</string>
 	<string name="type.piste_type.downhill.freeride">Esqui alpino livre</string>
 	<string name="type.piste_type.downhill.intermediate">Esqui alpino intermédio</string>
+	<string name="type.piste_type.downhill.intermediate.area">Esqui alpino intermédio</string>
 	<string name="type.piste_type.downhill.novice">Esqui alpino iniciante</string>
+	<string name="type.piste_type.downhill.novice.area">Esqui alpino iniciante</string>
 	<string name="type.piste_type.nordic">Pista tipo nórdico</string>
 	<string name="type.piste_type.sled">Pista para trenós</string>
+	<string name="type.piste_type.sled.area">Pista para trenós</string>
+	<string name="type.piste_type.hike">Trilha de caminhada na neve</string>
+	<string name="type.piste_type.connection">Conexão às pistas</string>
+	<string name="type.piste_type.skitour">Trilha de esqui de passeio</string>
 	<string name="type.amenity.events_venue">Local do evento</string>
 	<string name="type.shop.collector">Colecionáveis</string>
 </resources>

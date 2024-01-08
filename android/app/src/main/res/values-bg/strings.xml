@@ -83,7 +83,7 @@
 	<string name="core_my_places">Мои места</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Име</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Адрес</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Списък</string>
@@ -626,6 +626,8 @@
 	<string name="yes_available">Да</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Не</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Капацитет: %s</string>
 	<string name="ok">Ок</string>
 	<!-- max. 10 symbols, both iOS and Android -->
 	<string name="sort">Сортиране…</string>
@@ -687,6 +689,8 @@
 	<string name="aa_connected_to_car_notification_title">Свързан с автомобил</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Активен отдих</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Уеб браузърът не е наличен</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Адрес/Блок</string>
@@ -746,6 +750,8 @@
 	<string name="type.boundary.protected_area.4">Защитена местност</string>
 	<string name="type.boundary.protected_area.5">Защитена местност</string>
 	<string name="type.boundary.protected_area.6">Защитена местност</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Адрес</string>
 	<string name="type.cemetery.grave">Гроб</string>
 	<string name="type.craft">Занаяти</string>
 	<string name="type.craft.beekeeper">Пчелар</string>
@@ -1132,6 +1138,10 @@
 	<string name="type.natural.water.ditch">Отводнителна канавка</string>
 	<string name="type.waterway.ditch.tunnel">водосток</string>
 	<string name="type.waterway.drain.tunnel">водосток</string>
+	<string name="type.piste_type.snow_park">Снежен парк</string>
+	<string name="type.piste_type.hike">Зимна пътека</string>
+	<string name="type.piste_type.connection">Свързване на пистите</string>
+	<string name="type.piste_type.skitour">Маршрут за скитуринг</string>
 	<string name="type.amenity.events_venue">Място за провеждане на събития</string>
 	<string name="type.shop.auction">Търг</string>
 	<string name="type.shop.collector">Колекционерски стоки</string>

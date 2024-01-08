@@ -80,7 +80,7 @@
 /* Default bookmark list name */
 "core_my_places" = "Paikkani";
 
-/* Editor title above street and house number */
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Osoite";
 
 /* Settings button in system menu */
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "Ei";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "Kapasiteetti: %@";
+
 "trip_finished" = "Olet perillä!";
 
 "keyboard_availability_alert" = "Näppäimistö ei ole käytettävissä ajon aikana";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "Rakennus";
 
-"type.building.address" = "Rakennus";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "Osoite";
 
 "type.building.has_parts" = "Rakennus";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "Ankkurihissi";
 
-"type.piste_type" = "Piste Type";
-
 "type.piste_type.downhill" = "Laskettelurinne";
+
+"type.piste_type.downhill.area" = "Laskettelurinne";
 
 "type.piste_type.downhill.advanced" = "Laskettelurinne";
 
+"type.piste_type.downhill.advanced.area" = "Laskettelurinne";
+
 "type.piste_type.downhill.easy" = "Laskettelurinne";
 
+"type.piste_type.downhill.easy.area" = "Laskettelurinne";
+
 "type.piste_type.downhill.expert" = "Laskettelurinne";
+
+"type.piste_type.downhill.expert.area" = "Laskettelurinne";
 
 "type.piste_type.downhill.freeride" = "Laskettelurinne";
 
 "type.piste_type.downhill.intermediate" = "Laskettelurinne";
 
+"type.piste_type.downhill.intermediate.area" = "Laskettelurinne";
+
 "type.piste_type.downhill.novice" = "Laskettelurinne";
+
+"type.piste_type.downhill.novice.area" = "Laskettelurinne";
 
 "type.piste_type.nordic" = "Latu";
 
 "type.piste_type.sled" = "Kelkkarata";
+
+"type.piste_type.sled.area" = "Kelkkarata";
+
+"type.piste_type.snow_park" = "Snow Park";
+
+"type.piste_type.hike" = "Lumi vaellusreitti";
+
+"type.piste_type.connection" = "Pisteen yhteys";
+
+"type.piste_type.skitour" = "Skitour Trail";
 
 "type.amenity.events_venue" = "Tapahtumapaikka";
 

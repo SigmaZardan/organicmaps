@@ -20312,7 +20312,7 @@ cont {
         dd: 2.7
         dd: 1.26
       }
-      priority: 170
+      priority: 180
       cap: BUTTCAP
     }
   }
@@ -20325,7 +20325,7 @@ cont {
         dd: 2.7
         dd: 1.26
       }
-      priority: 170
+      priority: 180
       cap: BUTTCAP
     }
     path_text {
@@ -20334,7 +20334,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20346,7 +20346,7 @@ cont {
         dd: 3.6
         dd: 1.8
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20354,7 +20354,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20366,7 +20366,7 @@ cont {
         dd: 4.5
         dd: 1.8
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20374,7 +20374,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20386,7 +20386,7 @@ cont {
         dd: 7.2
         dd: 2.7
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20394,7 +20394,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20406,7 +20406,7 @@ cont {
         dd: 9.0
         dd: 3.6
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20414,7 +20414,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20426,7 +20426,7 @@ cont {
         dd: 9.0
         dd: 3.6
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20434,7 +20434,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
 }
@@ -20449,7 +20449,7 @@ cont {
         dd: 2.7
         dd: 1.26
       }
-      priority: 170
+      priority: 180
       cap: BUTTCAP
     }
   }
@@ -20468,7 +20468,7 @@ cont {
         dd: 2.7
         dd: 1.26
       }
-      priority: 170
+      priority: 180
       cap: BUTTCAP
     }
     path_text {
@@ -20477,7 +20477,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20495,7 +20495,7 @@ cont {
         dd: 3.6
         dd: 1.8
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20503,7 +20503,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20527,7 +20527,7 @@ cont {
         dd: 4.5
         dd: 1.8
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20535,7 +20535,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20559,7 +20559,7 @@ cont {
         dd: 7.2
         dd: 2.7
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20567,7 +20567,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20591,7 +20591,7 @@ cont {
         dd: 9.0
         dd: 3.6
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20599,7 +20599,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20623,7 +20623,7 @@ cont {
         dd: 9.0
         dd: 3.6
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20631,144 +20631,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
-    }
-  }
-}
-cont {
-  name: "highway-bridleway-permissive"
-  element {
-    scale: 14
-    lines {
-      width: 0.9
-      color: 1714104359
-      dashdot {
-        dd: 2.7
-        dd: 1.26
-      }
-      priority: 170
-      cap: BUTTCAP
-    }
-  }
-  element {
-    scale: 15
-    lines {
-      width: 1.4
-      color: 1714104359
-      dashdot {
-        dd: 2.7
-        dd: 1.26
-      }
-      priority: 170
-      cap: BUTTCAP
-    }
-    path_text {
-      primary {
-        height: 8
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2790
-    }
-  }
-  element {
-    scale: 16
-    lines {
-      width: 1.8
-      color: 1714104359
-      dashdot {
-        dd: 3.6
-        dd: 1.8
-      }
-      priority: 170
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2790
-    }
-  }
-  element {
-    scale: 17
-    lines {
-      width: 2.0
-      color: 1714104359
-      dashdot {
-        dd: 4.5
-        dd: 1.8
-      }
-      priority: 170
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2790
-    }
-  }
-  element {
-    scale: 18
-    lines {
-      width: 3.0
-      color: 1714104359
-      dashdot {
-        dd: 7.2
-        dd: 2.7
-      }
-      priority: 170
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2790
-    }
-  }
-  element {
-    scale: 19
-    lines {
-      width: 4.0
-      color: 1714104359
-      dashdot {
-        dd: 9.0
-        dd: 3.6
-      }
-      priority: 170
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2790
-    }
-  }
-  element {
-    scale: 20
-    lines {
-      width: 4.0
-      color: 1714104359
-      dashdot {
-        dd: 9.0
-        dd: 3.6
-      }
-      priority: 170
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2790
+      priority: 2820
     }
   }
 }
@@ -20783,7 +20646,7 @@ cont {
         dd: 2.7
         dd: 1.26
       }
-      priority: 170
+      priority: 180
       cap: BUTTCAP
     }
   }
@@ -20796,7 +20659,7 @@ cont {
         dd: 2.7
         dd: 1.26
       }
-      priority: 170
+      priority: 180
       cap: BUTTCAP
     }
     path_text {
@@ -20805,7 +20668,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20817,7 +20680,7 @@ cont {
         dd: 3.6
         dd: 1.8
       }
-      priority: 170
+      priority: 180
     }
     path_text {
       primary {
@@ -20825,7 +20688,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20837,7 +20700,7 @@ cont {
         dd: 4.5
         dd: 1.8
       }
-      priority: 170
+      priority: 180
     }
     lines {
       width: 5.0
@@ -20861,7 +20724,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20873,7 +20736,7 @@ cont {
         dd: 7.2
         dd: 2.7
       }
-      priority: 170
+      priority: 180
     }
     lines {
       width: 7.0
@@ -20897,7 +20760,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20909,7 +20772,7 @@ cont {
         dd: 9.0
         dd: 3.6
       }
-      priority: 170
+      priority: 180
     }
     lines {
       width: 9.0
@@ -20933,7 +20796,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
   element {
@@ -20945,7 +20808,7 @@ cont {
         dd: 9.0
         dd: 3.6
       }
-      priority: 170
+      priority: 180
     }
     lines {
       width: 9.0
@@ -20969,7 +20832,7 @@ cont {
         color: 7829367
         stroke_color: 856756480
       }
-      priority: 2790
+      priority: 2820
     }
   }
 }
@@ -21786,124 +21649,6 @@ cont {
       priority: 150
       cap: BUTTCAP
     }
-    lines {
-      width: 2.2
-      color: 443432263
-      priority: 330
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2953
-    }
-  }
-}
-cont {
-  name: "highway-cycleway-permissive"
-  element {
-    scale: 13
-    lines {
-      width: 1.0
-      color: 1299070279
-      priority: 330
-      cap: BUTTCAP
-    }
-  }
-  element {
-    scale: 14
-    lines {
-      width: 1.2
-      color: 1299070279
-      priority: 330
-      cap: BUTTCAP
-    }
-  }
-  element {
-    scale: 15
-    lines {
-      width: 1.4
-      color: 1299070279
-      priority: 330
-      cap: BUTTCAP
-    }
-    path_text {
-      primary {
-        height: 8
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2953
-    }
-  }
-  element {
-    scale: 16
-    lines {
-      width: 1.6
-      color: 1299070279
-      priority: 330
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2953
-    }
-  }
-  element {
-    scale: 17
-    lines {
-      width: 1.8
-      color: 1299070279
-      priority: 330
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2953
-    }
-  }
-  element {
-    scale: 18
-    lines {
-      width: 2.0
-      color: 443432263
-      priority: 330
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2953
-    }
-  }
-  element {
-    scale: 19
-    lines {
-      width: 2.2
-      color: 443432263
-      priority: 330
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2953
-    }
-  }
-  element {
-    scale: 20
     lines {
       width: 2.2
       color: 443432263
@@ -27745,143 +27490,6 @@ cont {
 }
 cont {
   name: "highway-path-mountain_hiking"
-  element {
-    scale: 14
-    lines {
-      width: 0.9
-      color: 1720994322
-      dashdot {
-        dd: 3.5
-        dd: 2.0
-      }
-      priority: 180
-      cap: BUTTCAP
-    }
-  }
-  element {
-    scale: 15
-    lines {
-      width: 1.1
-      color: 1720994322
-      dashdot {
-        dd: 3.5
-        dd: 2.0
-      }
-      priority: 180
-      cap: BUTTCAP
-    }
-    path_text {
-      primary {
-        height: 8
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2820
-    }
-  }
-  element {
-    scale: 16
-    lines {
-      width: 1.5
-      color: 1720994322
-      dashdot {
-        dd: 4.0
-        dd: 2.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2820
-    }
-  }
-  element {
-    scale: 17
-    lines {
-      width: 2.0
-      color: 1720994322
-      dashdot {
-        dd: 4.0
-        dd: 2.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2820
-    }
-  }
-  element {
-    scale: 18
-    lines {
-      width: 2.8
-      color: 865356306
-      dashdot {
-        dd: 6.0
-        dd: 3.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2820
-    }
-  }
-  element {
-    scale: 19
-    lines {
-      width: 3.7
-      color: 865356306
-      dashdot {
-        dd: 8.0
-        dd: 4.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2820
-    }
-  }
-  element {
-    scale: 20
-    lines {
-      width: 3.7
-      color: 865356306
-      dashdot {
-        dd: 8.0
-        dd: 4.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2820
-    }
-  }
-}
-cont {
-  name: "highway-path-permissive"
   element {
     scale: 14
     lines {
@@ -37260,143 +36868,6 @@ cont {
 }
 cont {
   name: "highway-track-no-access"
-  element {
-    scale: 14
-    lines {
-      width: 1.1
-      color: 1717523245
-      dashdot {
-        dd: 6.0
-        dd: 2.5
-      }
-      priority: 180
-      cap: BUTTCAP
-    }
-  }
-  element {
-    scale: 15
-    lines {
-      width: 1.4
-      color: 1717523245
-      dashdot {
-        dd: 6.0
-        dd: 2.5
-      }
-      priority: 180
-      cap: BUTTCAP
-    }
-    path_text {
-      primary {
-        height: 8
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2780
-    }
-  }
-  element {
-    scale: 16
-    lines {
-      width: 1.9
-      color: 1717523245
-      dashdot {
-        dd: 7.0
-        dd: 3.0
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2780
-    }
-  }
-  element {
-    scale: 17
-    lines {
-      width: 2.5
-      color: 1717523245
-      dashdot {
-        dd: 7.0
-        dd: 3.0
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2780
-    }
-  }
-  element {
-    scale: 18
-    lines {
-      width: 3.3
-      color: 861885229
-      dashdot {
-        dd: 9.0
-        dd: 3.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2780
-    }
-  }
-  element {
-    scale: 19
-    lines {
-      width: 4.2
-      color: 861885229
-      dashdot {
-        dd: 12.0
-        dd: 3.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2780
-    }
-  }
-  element {
-    scale: 20
-    lines {
-      width: 4.2
-      color: 861885229
-      dashdot {
-        dd: 12.0
-        dd: 3.5
-      }
-      priority: 180
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 7829367
-        stroke_color: 856756480
-      }
-      priority: 2780
-    }
-  }
-}
-cont {
-  name: "highway-track-permissive"
   element {
     scale: 14
     lines {
@@ -54039,6 +53510,41 @@ cont {
   }
 }
 cont {
+  name: "man_made-cairn"
+  element {
+    scale: 19
+    symbol {
+      name: "cairn-m"
+      priority: -9950
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -10000
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "cairn-m"
+      priority: -9950
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -10000
+    }
+  }
+}
+cont {
   name: "man_made-chimney"
   element {
     scale: 16
@@ -62313,16 +61819,7 @@ cont {
   }
 }
 cont {
-  name: "piste:type-downhill"
-  element {
-    scale: 14
-    lines {
-      width: 0.8
-      color: 1717714303
-      priority: 120
-      cap: BUTTCAP
-    }
-  }
+  name: "piste:type-connection"
   element {
     scale: 15
     lines {
@@ -62330,14 +61827,6 @@ cont {
       color: 1717714303
       priority: 120
       cap: BUTTCAP
-    }
-    path_text {
-      primary {
-        height: 9
-        color: 8947848
-        stroke_color: 1292964096
-      }
-      priority: 2950
     }
   }
   element {
@@ -62347,14 +61836,6 @@ cont {
       color: 1717714303
       priority: 120
     }
-    path_text {
-      primary {
-        height: 10
-        color: 8947848
-        stroke_color: 1292964096
-      }
-      priority: 2950
-    }
   }
   element {
     scale: 17
@@ -62362,14 +61843,6 @@ cont {
       width: 1.5
       color: 1717714303
       priority: 120
-    }
-    path_text {
-      primary {
-        height: 10
-        color: 8947848
-        stroke_color: 1292964096
-      }
-      priority: 2950
     }
   }
   element {
@@ -62379,14 +61852,6 @@ cont {
       color: 1717714303
       priority: 120
     }
-    path_text {
-      primary {
-        height: 12
-        color: 8947848
-        stroke_color: 1292964096
-      }
-      priority: 2950
-    }
   }
   element {
     scale: 19
@@ -62394,14 +61859,6 @@ cont {
       width: 1.5
       color: 1717714303
       priority: 120
-    }
-    path_text {
-      primary {
-        height: 12
-        color: 8947848
-        stroke_color: 1292964096
-      }
-      priority: 2950
     }
   }
   element {
@@ -62411,13 +61868,114 @@ cont {
       color: 1717714303
       priority: 120
     }
+  }
+}
+cont {
+  name: "piste:type-downhill"
+  element {
+    scale: 14
+    lines {
+      width: 1.0
+      color: 2573352319
+      priority: 120
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 15
+    lines {
+      width: 1.6
+      color: 2153921919
+      priority: 120
+      cap: BUTTCAP
+    }
+    path_text {
+      primary {
+        height: 9
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 16
+    lines {
+      width: 1.6
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 17
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 18
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
     path_text {
       primary {
         height: 12
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
+    }
+  }
+  element {
+    scale: 19
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 20
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
     }
   }
 }
@@ -62427,7 +61985,7 @@ cont {
     scale: 14
     lines {
       width: 1.0
-      color: 1713512994
+      color: 2569151010
       priority: 120
       cap: BUTTCAP
     }
@@ -62435,8 +61993,8 @@ cont {
   element {
     scale: 15
     lines {
-      width: 1.1
-      color: 1713512994
+      width: 1.6
+      color: 2149720610
       priority: 120
       cap: BUTTCAP
     }
@@ -62446,14 +62004,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 16
     lines {
-      width: 1.1
-      color: 1713512994
+      width: 1.6
+      color: 2149720610
       priority: 120
     }
     path_text {
@@ -62462,14 +62020,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 17
     lines {
-      width: 1.5
-      color: 1713512994
+      width: 1.8
+      color: 2149720610
       priority: 120
     }
     path_text {
@@ -62478,14 +62036,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 18
     lines {
-      width: 1.5
-      color: 1713512994
+      width: 1.8
+      color: 2149720610
       priority: 120
     }
     path_text {
@@ -62494,14 +62052,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 19
     lines {
-      width: 1.5
-      color: 1713512994
+      width: 1.8
+      color: 2149720610
       priority: 120
     }
     path_text {
@@ -62510,14 +62068,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 20
     lines {
-      width: 1.5
-      color: 1713512994
+      width: 1.8
+      color: 2149720610
       priority: 120
     }
     path_text {
@@ -62526,7 +62084,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
 }
@@ -62536,7 +62094,7 @@ cont {
     scale: 14
     lines {
       width: 1.0
-      color: 1712007163
+      color: 2567645179
       priority: 120
       cap: BUTTCAP
     }
@@ -62544,8 +62102,8 @@ cont {
   element {
     scale: 15
     lines {
-      width: 1.1
-      color: 1712007163
+      width: 1.6
+      color: 2148214779
       priority: 120
       cap: BUTTCAP
     }
@@ -62555,14 +62113,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 16
     lines {
-      width: 1.1
-      color: 1712007163
+      width: 1.6
+      color: 2148214779
       priority: 120
     }
     path_text {
@@ -62571,14 +62129,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 17
     lines {
-      width: 1.5
-      color: 1712007163
+      width: 1.8
+      color: 2148214779
       priority: 120
     }
     path_text {
@@ -62587,14 +62145,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 18
     lines {
-      width: 1.5
-      color: 1712007163
+      width: 1.8
+      color: 2148214779
       priority: 120
     }
     path_text {
@@ -62603,14 +62161,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 19
     lines {
-      width: 1.5
-      color: 1712007163
+      width: 1.8
+      color: 2148214779
       priority: 120
     }
     path_text {
@@ -62619,14 +62177,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 20
     lines {
-      width: 1.5
-      color: 1712007163
+      width: 1.8
+      color: 2148214779
       priority: 120
     }
     path_text {
@@ -62635,7 +62193,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
 }
@@ -62645,7 +62203,7 @@ cont {
     scale: 14
     lines {
       width: 1.0
-      color: 1714631475
+      color: 2570269491
       priority: 120
       cap: BUTTCAP
     }
@@ -62653,8 +62211,8 @@ cont {
   element {
     scale: 15
     lines {
-      width: 1.1
-      color: 1714631475
+      width: 1.6
+      color: 2150839091
       priority: 120
       cap: BUTTCAP
     }
@@ -62664,14 +62222,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 16
     lines {
-      width: 1.1
-      color: 1714631475
+      width: 1.6
+      color: 2150839091
       priority: 120
     }
     path_text {
@@ -62680,14 +62238,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 17
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2150839091
       priority: 120
     }
     path_text {
@@ -62696,14 +62254,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 18
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2150839091
       priority: 120
     }
     path_text {
@@ -62712,14 +62270,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 19
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2150839091
       priority: 120
     }
     path_text {
@@ -62728,14 +62286,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 20
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2150839091
       priority: 120
     }
     path_text {
@@ -62744,7 +62302,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
 }
@@ -62754,7 +62312,7 @@ cont {
     scale: 14
     lines {
       width: 1.0
-      color: 1714631475
+      color: 2582553856
       priority: 120
       cap: BUTTCAP
     }
@@ -62762,8 +62320,8 @@ cont {
   element {
     scale: 15
     lines {
-      width: 1.1
-      color: 1714631475
+      width: 1.6
+      color: 2163123456
       priority: 120
       cap: BUTTCAP
     }
@@ -62773,14 +62331,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 16
     lines {
-      width: 1.1
-      color: 1714631475
+      width: 1.6
+      color: 2163123456
       priority: 120
     }
     path_text {
@@ -62789,14 +62347,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 17
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2163123456
       priority: 120
     }
     path_text {
@@ -62805,14 +62363,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 18
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2163123456
       priority: 120
     }
     path_text {
@@ -62821,14 +62379,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 19
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2163123456
       priority: 120
     }
     path_text {
@@ -62837,14 +62395,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 20
     lines {
-      width: 1.5
-      color: 1714631475
+      width: 1.8
+      color: 2163123456
       priority: 120
     }
     path_text {
@@ -62853,7 +62411,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
 }
@@ -62863,7 +62421,7 @@ cont {
     scale: 14
     lines {
       width: 1.0
-      color: 1727794715
+      color: 2583432731
       priority: 120
       cap: BUTTCAP
     }
@@ -62871,8 +62429,8 @@ cont {
   element {
     scale: 15
     lines {
-      width: 1.1
-      color: 1727794715
+      width: 1.6
+      color: 2164002331
       priority: 120
       cap: BUTTCAP
     }
@@ -62882,14 +62440,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 16
     lines {
-      width: 1.1
-      color: 1727794715
+      width: 1.6
+      color: 2164002331
       priority: 120
     }
     path_text {
@@ -62898,14 +62456,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 17
     lines {
-      width: 1.5
-      color: 1727794715
+      width: 1.8
+      color: 2164002331
       priority: 120
     }
     path_text {
@@ -62914,14 +62472,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 18
     lines {
-      width: 1.5
-      color: 1727794715
+      width: 1.8
+      color: 2164002331
       priority: 120
     }
     path_text {
@@ -62930,14 +62488,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 19
     lines {
-      width: 1.5
-      color: 1727794715
+      width: 1.8
+      color: 2164002331
       priority: 120
     }
     path_text {
@@ -62946,14 +62504,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 20
     lines {
-      width: 1.5
-      color: 1727794715
+      width: 1.8
+      color: 2164002331
       priority: 120
     }
     path_text {
@@ -62962,7 +62520,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
 }
@@ -62972,7 +62530,7 @@ cont {
     scale: 14
     lines {
       width: 1.0
-      color: 1717562158
+      color: 2573200174
       priority: 120
       cap: BUTTCAP
     }
@@ -62980,8 +62538,8 @@ cont {
   element {
     scale: 15
     lines {
-      width: 1.1
-      color: 1717562158
+      width: 1.6
+      color: 1298131758
       priority: 120
       cap: BUTTCAP
     }
@@ -62991,14 +62549,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 16
     lines {
-      width: 1.1
-      color: 1717562158
+      width: 1.6
+      color: 1298131758
       priority: 120
     }
     path_text {
@@ -63007,14 +62565,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 17
     lines {
-      width: 1.5
-      color: 1717562158
+      width: 1.8
+      color: 1298131758
       priority: 120
     }
     path_text {
@@ -63023,14 +62581,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 18
     lines {
-      width: 1.5
-      color: 1717562158
+      width: 1.8
+      color: 1298131758
       priority: 120
     }
     path_text {
@@ -63039,14 +62597,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 19
     lines {
-      width: 1.5
-      color: 1717562158
+      width: 1.8
+      color: 1298131758
       priority: 120
     }
     path_text {
@@ -63055,14 +62613,14 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
     scale: 20
     lines {
-      width: 1.5
-      color: 1717562158
+      width: 1.8
+      color: 1298131758
       priority: 120
     }
     path_text {
@@ -63071,7 +62629,144 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
+    }
+  }
+}
+cont {
+  name: "piste:type-hike"
+  element {
+    scale: 14
+    lines {
+      width: 0.9
+      color: 2573352319
+      dashdot {
+        dd: 3.5
+        dd: 2.0
+      }
+      priority: 120
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 15
+    lines {
+      width: 1.1
+      color: 2573352319
+      dashdot {
+        dd: 3.5
+        dd: 2.0
+      }
+      priority: 120
+      cap: BUTTCAP
+    }
+    path_text {
+      primary {
+        height: 9
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 16
+    lines {
+      width: 1.5
+      color: 2573352319
+      dashdot {
+        dd: 4.0
+        dd: 2.5
+      }
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 17
+    lines {
+      width: 2.0
+      color: 2573352319
+      dashdot {
+        dd: 4.0
+        dd: 2.5
+      }
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 18
+    lines {
+      width: 2.0
+      color: 2573352319
+      dashdot {
+        dd: 4.0
+        dd: 2.5
+      }
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 19
+    lines {
+      width: 2.0
+      color: 2573352319
+      dashdot {
+        dd: 4.0
+        dd: 2.5
+      }
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 20
+    lines {
+      width: 2.0
+      color: 2573352319
+      dashdot {
+        dd: 4.0
+        dd: 2.5
+      }
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
     }
   }
 }
@@ -63100,7 +62795,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63116,7 +62811,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63132,7 +62827,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63148,7 +62843,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63164,7 +62859,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63180,12 +62875,12 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
 }
 cont {
-  name: "piste:type-sled"
+  name: "piste:type-skitour"
   element {
     scale: 14
     lines {
@@ -63209,7 +62904,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63225,7 +62920,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63241,7 +62936,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63257,7 +62952,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63273,7 +62968,7 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
     }
   }
   element {
@@ -63289,7 +62984,216 @@ cont {
         color: 8947848
         stroke_color: 1292964096
       }
-      priority: 2950
+      priority: 2770
+    }
+  }
+}
+cont {
+  name: "piste:type-sled"
+  element {
+    scale: 14
+    lines {
+      width: 1.0
+      color: 2573352319
+      priority: 120
+      cap: BUTTCAP
+    }
+  }
+  element {
+    scale: 15
+    lines {
+      width: 1.6
+      color: 2153921919
+      priority: 120
+      cap: BUTTCAP
+    }
+    path_text {
+      primary {
+        height: 9
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 16
+    lines {
+      width: 1.6
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 17
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 18
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 19
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 20
+    lines {
+      width: 1.8
+      color: 2153921919
+      priority: 120
+    }
+    path_text {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+}
+cont {
+  name: "piste:type-snow_park"
+  element {
+    scale: 14
+    area {
+      color: 3428990335
+      priority: 15
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 3428990335
+      priority: 15
+    }
+    caption {
+      primary {
+        height: 9
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 3428990335
+      priority: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 3428990335
+      priority: 15
+    }
+    caption {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 3428990335
+      priority: 15
+    }
+    caption {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 3428990335
+      priority: 15
+    }
+    caption {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 3428990335
+      priority: 15
+    }
+    caption {
+      primary {
+        height: 12
+        color: 8947848
+        stroke_color: 1292964096
+      }
+      priority: 2770
     }
   }
 }

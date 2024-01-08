@@ -16,6 +16,8 @@
 	<string name="about_developed_by_enthusiasts">Maombi ya chanzo-wazi iliyoundwa na wanaovutia na wanaojitolea.</string>
 	<!-- The button that opens system location settings -->
 	<string name="location_settings">Mipangilio ya mahali</string>
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
+	<string name="address">Anwani</string>
 	<!-- Header of settings activity where user defines storage path -->
 	<string name="maps_storage">Hifadhi ramani kwenye</string>
 
@@ -198,6 +200,8 @@
 	<string name="yes_available">Ndio</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Hapana</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Uwezo: %s</string>
 	<string name="trip_finished">Umefika!</string>
 	<string name="ok">Sawa</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -277,6 +281,8 @@
 	<string name="aa_connected_to_car_notification_title">Imeunganishwa na gari</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Kutembea kwa miguu</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Kivinjari cha wavuti hakipatikani</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Anwani/Zuia</string>
@@ -345,6 +351,8 @@
 	<string name="type.boundary.protected_area.4">Eneo Lindwa</string>
 	<string name="type.boundary.protected_area.5">Eneo Lindwa</string>
 	<string name="type.boundary.protected_area.6">Eneo Lindwa</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Anwani</string>
 	<string name="type.cemetery.grave">Kaburi</string>
 	<string name="type.craft">Ufundi</string>
 	<string name="type.craft.beekeeper">Mfugaji nyuki</string>
@@ -869,6 +877,10 @@
 	<string name="type.wheelchair.limited">Viti vya magurudumu vinaruhusiwa vichache</string>
 	<string name="type.wheelchair.no">Viti vya magurudumu haviruhusiwi</string>
 	<string name="type.wheelchair.yes">Viti vya magurudumu vinaruhusiwa kabisa</string>
+	<string name="type.piste_type.snow_park">Hifadhi ya theluji</string>
+	<string name="type.piste_type.hike">Njia ya Kupanda theluji</string>
+	<string name="type.piste_type.connection">Uunganisho wa Piste</string>
+	<string name="type.piste_type.skitour">Njia ya Skitour</string>
 	<string name="type.amenity.events_venue">Ukumbi wa Matukio</string>
 	<string name="type.shop.auction">Mnada</string>
 	<string name="type.shop.collector">Mikusanyiko</string>

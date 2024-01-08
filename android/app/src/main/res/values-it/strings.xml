@@ -80,7 +80,7 @@
 	<string name="core_my_places">I miei luoghi</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Nome</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Indirizzo</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Elenco</string>
@@ -658,6 +658,8 @@
 	<string name="yes_available">Sì</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">No</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Capacità: %s</string>
 	<string name="trip_finished">Sei arrivato!</string>
 	<string name="ok">Ok</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -750,6 +752,8 @@
 	<string name="aa_connected_to_car_notification_title">Collegato all\'auto</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Escursioni</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Il browser web non è disponibile</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Indirizzo/Blocco</string>
@@ -977,7 +981,8 @@
 	<string name="type.boundary.protected_area.5">Area protetta</string>
 	<string name="type.boundary.protected_area.6">Area protetta</string>
 	<string name="type.building">Edificio</string>
-	<string name="type.building.address">Edificio</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Indirizzo</string>
 	<string name="type.building.has_parts">Edificio</string>
 	<string name="type.building_part">Edificio</string>
 	<string name="type.building.garage">Garage</string>
@@ -2009,11 +2014,21 @@
 	<string name="type.wheelchair.no">Non accessibile ai disabili</string>
 	<string name="type.wheelchair.yes">Accessibile ai disabili</string>
 	<string name="type.piste_type.downhill.advanced">Pista difficile</string>
+	<string name="type.piste_type.downhill.advanced.area">Pista difficile</string>
 	<string name="type.piste_type.downhill.easy">Pista facile</string>
+	<string name="type.piste_type.downhill.easy.area">Pista facile</string>
 	<string name="type.piste_type.downhill.expert">Pista per esperti</string>
+	<string name="type.piste_type.downhill.expert.area">Pista per esperti</string>
 	<string name="type.piste_type.downhill.intermediate">Pista media</string>
+	<string name="type.piste_type.downhill.intermediate.area">Pista media</string>
 	<string name="type.piste_type.downhill.novice">Pista per principianti</string>
+	<string name="type.piste_type.downhill.novice.area">Pista per principianti</string>
 	<string name="type.piste_type.sled">Pista per slitte</string>
+	<string name="type.piste_type.sled.area">Pista per slitte</string>
+	<string name="type.piste_type.snow_park">Snow Park</string>
+	<string name="type.piste_type.hike">Sentiero escursionistico della neve</string>
+	<string name="type.piste_type.connection">Connessione alle piste</string>
+	<string name="type.piste_type.skitour">Sentiero Skitour</string>
 	<string name="type.amenity.events_venue">Sede degli eventi</string>
 	<string name="type.shop.auction">Asta</string>
 	<string name="type.shop.collector">Oggetti da collezione</string>

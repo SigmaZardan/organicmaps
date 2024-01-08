@@ -80,7 +80,7 @@
 	<string name="core_my_places">Mine Steder</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Navn</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Adresse</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Liste</string>
@@ -641,6 +641,8 @@
 	<string name="yes_available">Ja</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Nej</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Kapacitet: %s</string>
 	<string name="trip_finished">Du er ankommet!</string>
 	<string name="ok">Ok</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -722,6 +724,8 @@
 	<string name="aa_connected_to_car_notification_title">Forbundet til bilen</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Vandring</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Webbrowser er ikke tilgængelig</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adresse/blok</string>
@@ -886,7 +890,8 @@
 	<string name="type.boundary.protected_area.5">Beskyttet område</string>
 	<string name="type.boundary.protected_area.6">Beskyttet område</string>
 	<string name="type.building">Bygning</string>
-	<string name="type.building.address">Bygning</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Adresse</string>
 	<string name="type.building.has_parts">Bygning</string>
 	<string name="type.building_part">Bygning</string>
 	<string name="type.building.train_station">Togstation</string>
@@ -1824,6 +1829,10 @@
 	<string name="type.wheelchair.limited">Begrænset tilgængelighed for kørestol</string>
 	<string name="type.wheelchair.no">Ingen tilgængelighed for kørestol</string>
 	<string name="type.wheelchair.yes">Fuld tilgængelighed for kørestol</string>
+	<string name="type.piste_type.snow_park">Snow Park</string>
+	<string name="type.piste_type.hike">Vandresti i sne</string>
+	<string name="type.piste_type.connection">Pisteforbindelse</string>
+	<string name="type.piste_type.skitour">Skitour Trail</string>
 	<string name="type.amenity.events_venue">Sted for arrangementer</string>
 	<string name="type.shop.auction">Auktion</string>
 	<string name="type.shop.collector">Samlerobjekter</string>

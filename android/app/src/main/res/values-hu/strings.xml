@@ -80,7 +80,7 @@
 	<string name="core_my_places">Saját helyeim</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Név</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Cím</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Lista</string>
@@ -653,6 +653,8 @@
 	<string name="yes_available">Igen</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Nem</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Kapacitás: %s</string>
 	<string name="trip_finished">Megérkeztél!</string>
 	<string name="ok">Oké</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -740,6 +742,8 @@
 	<string name="aa_connected_to_car_notification_title">Autóhoz csatlakoztatva</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Túrázás</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">A webböngésző nem elérhető</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Cím/blokk</string>
@@ -910,7 +914,8 @@
 	<string name="type.boundary.protected_area.5">Védett terület</string>
 	<string name="type.boundary.protected_area.6">Védett terület</string>
 	<string name="type.building">Épület</string>
-	<string name="type.building.address">Épület</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Cím</string>
 	<string name="type.building.has_parts">Épület</string>
 	<string name="type.building_part">Épület</string>
 	<string name="type.building.garage">Garázs</string>
@@ -1860,6 +1865,10 @@
 	<string name="type.wheelchair.limited">Korlátozottan akadálymentesített</string>
 	<string name="type.wheelchair.no">Nem akadálymentesített</string>
 	<string name="type.wheelchair.yes">Teljesen akadálymentesített</string>
+	<string name="type.piste_type.snow_park">Snow Park</string>
+	<string name="type.piste_type.hike">Hó túraútvonal</string>
+	<string name="type.piste_type.connection">Pálya kapcsolat</string>
+	<string name="type.piste_type.skitour">Skitúra ösvény</string>
 	<string name="type.amenity.events_venue">Rendezvények helyszíne</string>
 	<string name="type.shop.auction">Aukció</string>
 	<string name="type.shop.collector">Gyűjthető tárgyak</string>

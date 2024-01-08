@@ -80,7 +80,7 @@
 /* Default bookmark list name */
 "core_my_places" = "สถานที่ของฉัน";
 
-/* Editor title above street and house number */
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "ที่อยู่";
 
 /* Settings button in system menu */
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "ไม่ใช่";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "ความจุ: %@";
+
 "trip_finished" = "คุณมาถึงแล้ว!";
 
 "keyboard_availability_alert" = "คีย์บอร์ดไม่สามารถใช้งานได้ขณะขับขี่";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "อาคาร";
 
-"type.building.address" = "อาคาร";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "ที่อยู่";
 
 "type.building.has_parts" = "อาคาร";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "T-bar Lift";
 
-"type.piste_type" = "Piste Type";
-
 "type.piste_type.downhill" = "Downhill Ski Run";
+
+"type.piste_type.downhill.area" = "Downhill Ski Run";
 
 "type.piste_type.downhill.advanced" = "Downhill Ski Run";
 
+"type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.easy" = "Downhill Ski Run";
 
+"type.piste_type.downhill.easy.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.expert" = "Downhill Ski Run";
+
+"type.piste_type.downhill.expert.area" = "Downhill Ski Run";
 
 "type.piste_type.downhill.freeride" = "Downhill Ski Run";
 
 "type.piste_type.downhill.intermediate" = "Downhill Ski Run";
 
+"type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.novice" = "Downhill Ski Run";
+
+"type.piste_type.downhill.novice.area" = "Downhill Ski Run";
 
 "type.piste_type.nordic" = "Nordic Ski Trail";
 
 "type.piste_type.sled" = "Sledding Piste";
+
+"type.piste_type.sled.area" = "Sledding Piste";
+
+"type.piste_type.snow_park" = "สโนว์พาร์ค";
+
+"type.piste_type.hike" = "เส้นทางเดินป่าหิมะ";
+
+"type.piste_type.connection" = "การเชื่อมต่อทางสกี";
+
+"type.piste_type.skitour" = "เส้นทางสกีทัวร์";
 
 "type.amenity.events_venue" = "สถานที่จัดงาน";
 

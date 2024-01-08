@@ -80,7 +80,7 @@
 	<string name="core_my_places">我的位置</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">名字</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">地址</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">列表</string>
@@ -649,6 +649,8 @@
 	<string name="yes_available">是</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">否</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">容量：%s</string>
 	<string name="trip_finished">您已到达!</string>
 	<string name="ok">好的</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -733,6 +735,8 @@
 	<string name="aa_connected_to_car_notification_title">与汽车连接</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">徒步旅行</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">网络浏览器不可用</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">地址/区块</string>
@@ -948,7 +952,8 @@
 	<string name="type.boundary.protected_area.5">保护区</string>
 	<string name="type.boundary.protected_area.6">保护区</string>
 	<string name="type.building">建筑物</string>
-	<string name="type.building.address">建筑物</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">地址</string>
 	<string name="type.building.has_parts">建筑物</string>
 	<string name="type.building_part">建筑物</string>
 	<string name="type.building.garage">独立1车库</string>
@@ -1991,6 +1996,10 @@
 	<string name="type.wheelchair.limited">部分配备为残疾人专用</string>
 	<string name="type.wheelchair.no">未配备残疾人专用</string>
 	<string name="type.wheelchair.yes">配备残疾人专用</string>
+	<string name="type.piste_type.snow_park">冰雪公园</string>
+	<string name="type.piste_type.hike">雪地徒步路径</string>
+	<string name="type.piste_type.connection">滑雪道连接</string>
+	<string name="type.piste_type.skitour">Skitour 小径</string>
 	<string name="type.amenity.events_venue">活动场所</string>
 	<string name="type.shop.auction">拍卖会</string>
 	<string name="type.shop.collector">收藏品</string>

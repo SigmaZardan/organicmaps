@@ -80,7 +80,7 @@
 	<string name="core_my_places">המקומות שלי</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">שם</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">כתובת</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">רשימה</string>
@@ -666,6 +666,8 @@
 	<string name="yes_available">כן</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">לא</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">קיבולת: %s</string>
 	<string name="trip_finished">הגעת!</string>
 	<string name="ok">אוקיי</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -758,6 +760,8 @@
 	<string name="aa_connected_to_car_notification_title">מחובר לרכב</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">טיול רגלי</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">דפדפן אינטרנט אינו זמין</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">כתובת/חסימה</string>
@@ -816,6 +820,8 @@
 	<string name="type.boundary.protected_area.4">אזור מוגן</string>
 	<string name="type.boundary.protected_area.5">אזור מוגן</string>
 	<string name="type.boundary.protected_area.6">אזור מוגן</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">כתובת</string>
 	<string name="type.cemetery.grave">רבק</string>
 	<string name="type.craft">מְלָאכָה</string>
 	<string name="type.craft.beekeeper">כוורן</string>
@@ -1292,6 +1298,10 @@
 	<string name="type.natural.water.ditch">תעלת ניקוז</string>
 	<string name="type.waterway.ditch.tunnel">גִשׁרוֹן</string>
 	<string name="type.waterway.drain.tunnel">גִשׁרוֹן</string>
+	<string name="type.piste_type.snow_park">פארק שלג</string>
+	<string name="type.piste_type.hike">מסלול טיולי שלג</string>
+	<string name="type.piste_type.connection">חיבור למסלולים</string>
+	<string name="type.piste_type.skitour">שביל סקי</string>
 	<string name="type.amenity.events_venue">מקום אירועים</string>
 	<string name="type.shop.auction">מכירה פומבית</string>
 	<string name="type.shop.collector">פריטי אספנות</string>

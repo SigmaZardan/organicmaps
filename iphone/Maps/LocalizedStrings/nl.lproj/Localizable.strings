@@ -80,7 +80,7 @@
 /* Default bookmark list name */
 "core_my_places" = "Mijn plaatsen";
 
-/* Editor title above street and house number */
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Adres";
 
 /* Settings button in system menu */
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "Nee";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "Capaciteit: %@";
+
 "trip_finished" = "U bent aangekomen!";
 
 "keyboard_availability_alert" = "Toetsenbord is niet beschikbaar tijdens het rijden";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "Gebouw";
 
-"type.building.address" = "Gebouw";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "Adres";
 
 "type.building.has_parts" = "Gebouw";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "Sleeplift (T-beugel)";
 
-"type.piste_type" = "Pistesoort";
-
 "type.piste_type.downhill" = "Ski-afdaling";
+
+"type.piste_type.downhill.area" = "Ski-afdaling";
 
 "type.piste_type.downhill.advanced" = "Moeilijke afdaling";
 
+"type.piste_type.downhill.advanced.area" = "Moeilijke afdaling";
+
 "type.piste_type.downhill.easy" = "Makkelijke afdaling";
 
+"type.piste_type.downhill.easy.area" = "Makkelijke afdaling";
+
 "type.piste_type.downhill.expert" = "Afdaling voor experts";
+
+"type.piste_type.downhill.expert.area" = "Afdaling voor experts";
 
 "type.piste_type.downhill.freeride" = "Ski-afdaling";
 
 "type.piste_type.downhill.intermediate" = "Gemiddelde afdaling";
 
+"type.piste_type.downhill.intermediate.area" = "Gemiddelde afdaling";
+
 "type.piste_type.downhill.novice" = "Beginnersafdaling";
+
+"type.piste_type.downhill.novice.area" = "Beginnersafdaling";
 
 "type.piste_type.nordic" = "Langlaufroute";
 
 "type.piste_type.sled" = "Sleebaan";
+
+"type.piste_type.sled.area" = "Sleebaan";
+
+"type.piste_type.snow_park" = "Sneeuwpark";
+
+"type.piste_type.hike" = "Sneeuwwandelpad";
+
+"type.piste_type.connection" = "Pisteverbinding";
+
+"type.piste_type.skitour" = "Skitourspoor";
 
 "type.amenity.events_venue" = "Evenementenlocatie";
 

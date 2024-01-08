@@ -80,7 +80,7 @@
 /* Default bookmark list name */
 "core_my_places" = "Мої Мітки";
 
-/* Editor title above street and house number */
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Адреса";
 
 /* Settings button in system menu */
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "Ні";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "Місткість: %@";
+
 "trip_finished" = "Ви прибули!";
 
 "keyboard_availability_alert" = "Клавіатура недоступна під час руху";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "Будівля";
 
-"type.building.address" = "Будівля";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "Адреса";
 
 "type.building.has_parts" = "Будівля";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "Бугельний витяг";
 
-"type.piste_type" = "Тип траси";
-
 "type.piste_type.downhill" = "Гірськолижна траса";
+
+"type.piste_type.downhill.area" = "Гірськолижна траса";
 
 "type.piste_type.downhill.advanced" = "Доповнена гірськолижна траса";
 
+"type.piste_type.downhill.advanced.area" = "Доповнена гірськолижна траса";
+
 "type.piste_type.downhill.easy" = "Легка гірськолижна траса";
 
+"type.piste_type.downhill.easy.area" = "Легка гірськолижна траса";
+
 "type.piste_type.downhill.expert" = "Гірськолижна траса для експертів";
+
+"type.piste_type.downhill.expert.area" = "Гірськолижна траса для експертів";
 
 "type.piste_type.downhill.freeride" = "Гірськолижна траса вільного спуска";
 
 "type.piste_type.downhill.intermediate" = "Гірськолижна траса середнього рівня";
 
+"type.piste_type.downhill.intermediate.area" = "Гірськолижна траса середнього рівня";
+
 "type.piste_type.downhill.novice" = "Гірськолижна траса для новеньких";
+
+"type.piste_type.downhill.novice.area" = "Гірськолижна траса для новеньких";
 
 "type.piste_type.nordic" = "Лижня";
 
 "type.piste_type.sled" = "Траса для санок";
+
+"type.piste_type.sled.area" = "Траса для санок";
+
+"type.piste_type.snow_park" = "Сніговий парк";
+
+"type.piste_type.hike" = "Зимова стежка";
+
+"type.piste_type.connection" = "З'єднання з трасою";
+
+"type.piste_type.skitour" = "Маршрут для скітуру";
 
 "type.amenity.events_venue" = "Місце проведення подій";
 

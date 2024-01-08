@@ -47,7 +47,6 @@ power-line::dash                                    # line::dash z19- (also has 
 
 highway-cycleway                                    # line z13- (also has pathtext z15-)
 highway-cycleway-bridge                             # line z13- (also has line::bridgeblack z17-, line::bridgewhite z15-, pathtext z15-)
-highway-cycleway-permissive                         # line z13- (also has pathtext z15-)
 highway-cycleway-tunnel                             # line z13- (also has line::tunnelBackground z17-, line::tunnelCasing z17-, pathtext z15-)
 highway-footway-crossing                            # line z16-
 highway-steps                                       # line z15- (also has pathtext z16-)
@@ -261,6 +260,9 @@ highway-service-parking_aisle                       # line z15- (also has pathte
 highway-service-tunnel                              # line z15- (also has pathtext z16-)
 === 190
 
+highway-bridleway                                   # line z14- (also has pathtext z15-)
+highway-bridleway-bridge                            # line z14- (also has line::bridgeblack z17-, line::bridgewhite z15-, pathtext z15-)
+highway-bridleway-tunnel                            # line z14- (also has line::tunnelBackground z17-, line::tunnelCasing z17-, pathtext z15-)
 highway-footway                                     # line z15- (also has pathtext z15-)
 highway-footway-alpine_hiking                       # line z14- (also has pathtext z15-)
 highway-footway-area                                # line z15- and area z14- (also has pathtext z15-)
@@ -282,7 +284,6 @@ highway-path-difficult_alpine_hiking                # line z14- (also has pathte
 highway-path-hiking                                 # line z14- (also has pathtext z15-)
 highway-path-horse                                  # line z14- (also has pathtext z15-)
 highway-path-mountain_hiking                        # line z14- (also has pathtext z15-)
-highway-path-permissive                             # line z14- (also has pathtext z15-)
 highway-path-tunnel                                 # line z14- (also has line::tunnelBackground z17-, line::tunnelCasing z17-, pathtext z15-)
 highway-raceway                                     # line z14- (also has pathtext z16-)
 highway-track                                       # line z14- (also has pathtext z15-)
@@ -294,16 +295,9 @@ highway-track-grade3                                # line z14- (also has pathte
 highway-track-grade4                                # line z14- (also has pathtext z15-)
 highway-track-grade5                                # line z14- (also has pathtext z15-)
 highway-track-no-access                             # line z14- (also has pathtext z15-)
-highway-track-permissive                            # line z14- (also has pathtext z15-)
 highway-track-tunnel                                # line z14- (also has line::tunnelBackground z17-, line::tunnelCasing z17-, pathtext z15-)
 leisure-track                                       # line z15- (also has caption z16-)
 === 180
-
-highway-bridleway                                   # line z14- (also has pathtext z15-)
-highway-bridleway-bridge                            # line z14- (also has line::bridgeblack z17-, line::bridgewhite z15-, pathtext z15-)
-highway-bridleway-permissive                        # line z14- (also has pathtext z15-)
-highway-bridleway-tunnel                            # line z14- (also has line::tunnelBackground z17-, line::tunnelCasing z17-, pathtext z15-)
-=== 170
 
 highway-construction                                # line z13- (also has pathtext z15-)
 railway-abandoned                                   # line z16-
@@ -390,6 +384,7 @@ building-has_parts                                  # area z14- (also has captio
 building-train_station                              # area z14- (also has caption z16-)
 === 130
 
+piste:type-connection                               # line z15-
 piste:type-downhill                                 # line z14- (also has pathtext z15-)
 piste:type-downhill-advanced                        # line z14- (also has pathtext z15-)
 piste:type-downhill-easy                            # line z14- (also has pathtext z15-)
@@ -397,7 +392,9 @@ piste:type-downhill-expert                          # line z14- (also has pathte
 piste:type-downhill-freeride                        # line z14- (also has pathtext z15-)
 piste:type-downhill-intermediate                    # line z14- (also has pathtext z15-)
 piste:type-downhill-novice                          # line z14- (also has pathtext z15-)
+piste:type-hike                                     # line z14- (also has pathtext z15-)
 piste:type-nordic                                   # line z14- (also has pathtext z15-)
+piste:type-skitour                                  # line z14- (also has pathtext z15-)
 piste:type-sled                                     # line z14- (also has pathtext z15-)
 === 120
 
@@ -463,6 +460,9 @@ landuse-military                                    # area z12- (also has icon z
 landuse-military-danger_area                        # area z10- (also has icon z16-, caption(optional) z17-)
 leisure-nature_reserve                              # area z10- (also has icon z11-, caption(optional) z12-)
 === 20
+
+piste:type-snow_park                                # area z14- (also has caption z15-)
+=== 15
 
 man_made-bridge                                     # area z14-
 === 10

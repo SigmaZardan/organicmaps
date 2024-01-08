@@ -80,7 +80,7 @@
 	<string name="core_my_places">Mina Platser</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">Namn</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">Adress</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">Lista</string>
@@ -639,6 +639,8 @@
 	<string name="yes_available">Ja</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">Nej</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">Kapacitet: %s</string>
 	<string name="trip_finished">Du är framme!</string>
 	<string name="ok">Ok</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -720,6 +722,8 @@
 	<string name="aa_connected_to_car_notification_title">Ansluten till bilen</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">Vandring</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">Webbläsaren är inte tillgänglig</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">Adress/Block</string>
@@ -888,7 +892,8 @@
 	<string name="type.boundary.protected_area.5">Skyddat område</string>
 	<string name="type.boundary.protected_area.6">Skyddat område</string>
 	<string name="type.building">Byggnad</string>
-	<string name="type.building.address">Byggnad</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">Adress</string>
 	<string name="type.building.has_parts">Byggnad</string>
 	<string name="type.building_part">Byggnad</string>
 	<string name="type.building.train_station">Tågstation</string>
@@ -1831,6 +1836,10 @@
 	<string name="type.wheelchair.limited">Delvis utrustad för handikappade</string>
 	<string name="type.wheelchair.no">Ej utrustad för handikappade</string>
 	<string name="type.wheelchair.yes">Utrustad för handikappade</string>
+	<string name="type.piste_type.snow_park">Snöparken</string>
+	<string name="type.piste_type.hike">Vandringsled i snö</string>
+	<string name="type.piste_type.connection">Piste Anslutning</string>
+	<string name="type.piste_type.skitour">Skitourleden</string>
 	<string name="type.amenity.events_venue">Evenemangslokal</string>
 	<string name="type.shop.auction">Auktion</string>
 	<string name="type.shop.collector">Samlingsföremål</string>

@@ -80,7 +80,7 @@
 /* Default bookmark list name */
 "core_my_places" = "Nire tokiak";
 
-/* Editor title above street and house number */
+/* Editor title above street and house number, duplicates [type.building.address] in types_strings.txt */
 "address" = "Helbidea";
 
 /* Settings button in system menu */
@@ -1076,6 +1076,9 @@
 /* E.g. "WiFi:No" */
 "no_available" = "Ez";
 
+/* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
+"capacity" = "Edukiera: %@";
+
 "trip_finished" = "Iritsi zara!";
 
 "keyboard_availability_alert" = "Teklatua ez dago erabilgarri mugimenduan zehar";
@@ -1696,7 +1699,8 @@
 
 "type.building" = "Eraikin";
 
-"type.building.address" = "Eraikin";
+/* Duplicates [address] in strings.txt */
+"type.building.address" = "Helbidea";
 
 "type.building.has_parts" = "Eraikin";
 
@@ -3841,25 +3845,45 @@
 
 "type.aerialway.t.bar" = "T-bar Lift";
 
-"type.piste_type" = "Piste Type";
-
 "type.piste_type.downhill" = "Downhill Ski Run";
+
+"type.piste_type.downhill.area" = "Downhill Ski Run";
 
 "type.piste_type.downhill.advanced" = "Downhill Ski Run";
 
+"type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.easy" = "Downhill Ski Run";
 
+"type.piste_type.downhill.easy.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.expert" = "Downhill Ski Run";
+
+"type.piste_type.downhill.expert.area" = "Downhill Ski Run";
 
 "type.piste_type.downhill.freeride" = "Downhill Ski Run";
 
 "type.piste_type.downhill.intermediate" = "Downhill Ski Run";
 
+"type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
+
 "type.piste_type.downhill.novice" = "Downhill Ski Run";
+
+"type.piste_type.downhill.novice.area" = "Downhill Ski Run";
 
 "type.piste_type.nordic" = "Nordic Ski Trail";
 
 "type.piste_type.sled" = "Sledding Piste";
+
+"type.piste_type.sled.area" = "Sledding Piste";
+
+"type.piste_type.snow_park" = "Elur parkea";
+
+"type.piste_type.hike" = "Elurretako Mendi Ibilbidea";
+
+"type.piste_type.connection" = "Pista Konexioa";
+
+"type.piste_type.skitour" = "Skitour Ibilbidea";
 
 "type.amenity.events_venue" = "Ekitaldien Lekua";
 

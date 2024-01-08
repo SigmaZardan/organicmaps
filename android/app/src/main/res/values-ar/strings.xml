@@ -83,7 +83,7 @@
 	<string name="core_my_places">أماكني</string>
 	<!-- Add bookmark dialog - bookmark name -->
 	<string name="name">الاسم</string>
-	<!-- Editor title above street and house number -->
+	<!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
 	<string name="address">العنوان</string>
 	<!-- Add Bookmark dialog/Bookmark list; Bookmarks dialog/Bookmark list cell. -->
 	<string name="list">قائمة</string>
@@ -684,6 +684,8 @@
 	<string name="yes_available">نعم</string>
 	<!-- E.g. "WiFi:No" -->
 	<string name="no_available">لا</string>
+	<!-- To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... -->
+	<string name="capacity">السعة: %s</string>
 	<string name="trip_finished">لقد وصلت!</string>
 	<string name="ok">موافق</string>
 	<!-- max. 10 symbols, both iOS and Android -->
@@ -778,6 +780,8 @@
 	<string name="aa_connected_to_car_notification_title">متصل بالسيارة</string>
 	<!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
 	<string name="button_layer_outdoor">جولة على الأقدام</string>
+	<!-- Text displayed when a webview or a browser are disabled, and external links can't be opened. -->
+	<string name="browser_not_available">متصفح الويب غير متوفر</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.addr_interpolation">العنوان / البلوك</string>
@@ -1006,7 +1010,8 @@
 	<string name="type.boundary.protected_area.5">منطقة محمية</string>
 	<string name="type.boundary.protected_area.6">منطقة محمية</string>
 	<string name="type.building">مبنى</string>
-	<string name="type.building.address">مبنى</string>
+	<!-- Duplicates [address] in strings.txt -->
+	<string name="type.building.address">العنوان</string>
 	<string name="type.building.has_parts">مبنى</string>
 	<string name="type.building_part">مبنى</string>
 	<string name="type.building.garage">مرآب</string>
@@ -2011,6 +2016,10 @@
 	<string name="type.wheelchair.limited">دعم محدود للكراسي المتحركة</string>
 	<string name="type.wheelchair.no">لا دعم للكراسي المتحركة</string>
 	<string name="type.wheelchair.yes">دعم كامل للكراسي المتحركة</string>
+	<string name="type.piste_type.snow_park">حديقة الثلج</string>
+	<string name="type.piste_type.hike">مسار المشي على الجليد</string>
+	<string name="type.piste_type.connection">اتصال الزحلقة</string>
+	<string name="type.piste_type.skitour">مسار سكيتور</string>
 	<string name="type.amenity.events_venue">مكان الأحداث</string>
 	<string name="type.shop.auction">مزاد علني</string>
 	<string name="type.shop.collector">مقتنيات</string>
